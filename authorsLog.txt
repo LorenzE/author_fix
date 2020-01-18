@@ -1,0 +1,3756 @@
+./tools/ifw_installer/windows/windows.pro
+Christoph Dinh	
+./tools/ifw_installer/mne-cpp_installer.pro
+Christoph Dinh	
+./tools/coding_conventions/Example_Application_Lib_Project/bmtiExample/bmtiExample.pro
+LorenzE	
+./tools/coding_conventions/Example_Application_Lib_Project/bmtiExample/main.cpp
+LorenzE	
+./tools/coding_conventions/Example_Application_Lib_Project/bmti/mainwindow.h
+LorenzE	
+./tools/coding_conventions/Example_Application_Lib_Project/bmti/bmti.pro
+LorenzE	
+./tools/coding_conventions/Example_Application_Lib_Project/bmti/bmti_global.h
+LorenzE	
+./tools/coding_conventions/Example_Application_Lib_Project/bmti/test.cpp
+LorenzE	
+./tools/coding_conventions/Example_Application_Lib_Project/bmti/test.h
+LorenzE	
+./tools/coding_conventions/Example_Application_Lib_Project/bmti/mainwindow.cpp
+LorenzE	
+./tools/coding_conventions/qtCreator_wizard/mnecpp/staticclass/templateclassstatic.cpp
+LorenzE	
+./tools/coding_conventions/qtCreator_wizard/mnecpp/staticclass/templateclassstatic.h
+LorenzE	
+./tools/coding_conventions/qtCreator_wizard/mnecpp/example/file.pro
+LorenzE	
+./tools/coding_conventions/qtCreator_wizard/mnecpp/example/main.cpp
+LorenzE	
+./tools/coding_conventions/qtCreator_wizard/mnecpp/class/templateclass.cpp
+LorenzE	
+./tools/coding_conventions/qtCreator_wizard/mnecpp/class/templateclass.h
+LorenzE	
+./mne-cpp.pro
+chdinh	
+Christoph Dinh	
+LorenzE	
+./applications/mne_sample_set_downloader/downloader.h
+Christoph Dinh	
+louis	
+./applications/mne_sample_set_downloader/mne_sample_set_downloader.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+louis	
+./applications/mne_sample_set_downloader/extract.cpp
+Christoph Dinh	
+louis	
+./applications/mne_sample_set_downloader/downloader.cpp
+Christoph Dinh	
+LorenzE	
+louis	
+./applications/mne_sample_set_downloader/main.cpp
+louis	
+./applications/mne_sample_set_downloader/extract.h
+Christoph Dinh	
+LorenzE	
+louis	
+./applications/mne_matching_pursuit/formulaeditor.cpp
+1DIce	
+Gabriel B Motta	
+GBeret	
+LorenzE	
+./applications/mne_matching_pursuit/deletemessagebox.cpp
+GBeret	
+LorenzE	
+LostSign	
+./applications/mne_matching_pursuit/mainwindow.h
+Gabriel B Motta	
+GBeret	
+LorenzE	
+LostSign	
+./applications/mne_matching_pursuit/processdurationmessagebox.cpp
+GBeret	
+LostSign	
+./applications/mne_matching_pursuit/settingwindow.cpp
+1DIce	
+Gabriel B Motta	
+GBeret	
+LorenzE	
+LostSign	
+./applications/mne_matching_pursuit/processdurationmessagebox.h
+GBeret	
+./applications/mne_matching_pursuit/enhancededitorwindow.h
+GBeret	
+./applications/mne_matching_pursuit/enhancededitorwindow.cpp
+Gabriel B Motta	
+GBeret	
+LorenzE	
+./applications/mne_matching_pursuit/mainwindow.cpp
+1DIce	
+Christoph Dinh	
+Gabriel B Motta	
+GBeret	
+LorenzE	
+Lorenz Esch	
+LostSign	
+./applications/mne_matching_pursuit/editorwindow.h
+GBeret	
+./applications/mne_matching_pursuit/treebaseddictwindow.h
+GBeret	
+./applications/mne_matching_pursuit/treebaseddictwindow.cpp
+GBeret	
+LorenzE	
+./applications/mne_matching_pursuit/deletemessagebox.h
+GBeret	
+./applications/mne_matching_pursuit/formulaeditor.h
+GBeret	
+./applications/mne_matching_pursuit/settingwindow.h
+GBeret	
+./applications/mne_matching_pursuit/mne_matching_pursuit.pro
+buildqa	
+Christoph Dinh	
+GBeret	
+LorenzE	
+Lorenz Esch	
+./applications/mne_matching_pursuit/editorwindow.cpp
+Christoph Dinh	
+Gabriel B Motta	
+GBeret	
+LorenzE	
+LostSign	
+./applications/mne_matching_pursuit/main.cpp
+GBeret	
+LostSign	
+./applications/mne_browse/Models/averagemodel.h
+Christoph Dinh	
+./applications/mne_browse/Models/rawmodel.cpp
+Christoph Dinh	
+Gabriel B Motta	
+LorenzE	
+./applications/mne_browse/Models/eventmodel.h
+Christoph Dinh	
+./applications/mne_browse/Models/eventmodel.cpp
+Christoph Dinh	
+./applications/mne_browse/Models/averagemodel.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Models/rawmodel.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/filterplotscene.cpp
+1DIce	
+Christoph Dinh	
+Gabriel B Motta	
+LorenzE	
+./applications/mne_browse/Utils/datamarker.h
+Christoph Dinh	
+./applications/mne_browse/Utils/rawsettings.h
+Christoph Dinh	
+./applications/mne_browse/Utils/butterflysceneitem.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/types.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/datamarker.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/info.h
+Christoph Dinh	
+./applications/mne_browse/Utils/filteroperator.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/newparksmcclellan.h
+Christoph Dinh	
+./applications/mne_browse/Utils/filterplotscene.h
+Christoph Dinh	
+./applications/mne_browse/Utils/butterflysceneitem.h
+Christoph Dinh	
+./applications/mne_browse/Utils/filteroperator.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_browse/Utils/butterflyscene.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/datapackage.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/datapackage.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Utils/rawsettings.cpp
+Christoph Dinh	
+./applications/mne_browse/Utils/newparksmcclellan.cpp
+Christoph Dinh	
+./applications/mne_browse/Utils/butterflyscene.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Views/rawview.cpp
+Christoph Dinh	
+./applications/mne_browse/Views/rawview.h
+Christoph Dinh	
+./applications/mne_browse/Windows/mainwindow.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/noisereductionwindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/chinfowindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/scalewindow.h
+Christoph Dinh	
+./applications/mne_browse/Windows/chinfowindow.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/averagewindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/filterwindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/aboutwindow.h
+Christoph Dinh	
+./applications/mne_browse/Windows/mainwindow.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_browse/Windows/aboutwindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/scalewindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/informationwindow.h
+Christoph Dinh	
+./applications/mne_browse/Windows/datawindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/noisereductionwindow.h
+Christoph Dinh	
+./applications/mne_browse/Windows/filterwindow.h
+Christoph Dinh	
+./applications/mne_browse/Windows/averagewindow.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/datawindow.h
+Christoph Dinh	
+./applications/mne_browse/Windows/eventwindow.h
+Christoph Dinh	
+./applications/mne_browse/Windows/eventwindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Windows/informationwindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Delegates/averagedelegate.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Delegates/averagedelegate.h
+Christoph Dinh	
+./applications/mne_browse/Delegates/rawdelegate.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Delegates/eventdelegate.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_browse/Delegates/rawdelegate.h
+Christoph Dinh	
+./applications/mne_browse/Delegates/eventdelegate.h
+Christoph Dinh	
+./applications/mne_browse/mne_browse.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_browse/main.cpp
+Christoph Dinh	
+./applications/mne_rt_server/mne_rt_server/IServer.h
+Christoph Dinh	
+./applications/mne_rt_server/mne_rt_server/fiffstreamserver.cpp
+Christoph Dinh	
+Felix Arndt	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server/IConnector.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/mne_rt_server/commandserver.cpp
+Christoph Dinh	
+Felix Arndt	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server/commandthread.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server/fiffstreamthread.cpp
+Christoph Dinh	
+Felix Arndt	
+Limin Sun	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server/mne_rt_server.pro
+buildqa	
+Christoph Dinh	
+Limin Sun	
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/mne_rt_server/mne_rt_server.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server/mne_rt_commands.h
+Christoph Dinh	
+./applications/mne_rt_server/mne_rt_server/commandserver.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/mne_rt_server/fiffstreamthread.h
+Christoph Dinh	
+Limin Sun	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server/fiffstreamserver.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/mne_rt_server/mne_rt_server.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/mne_rt_server/commandthread.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server/connectormanager.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/mne_rt_server/connectormanager.cpp
+Christoph Dinh	
+Felix Arndt	
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/mne_rt_server/main.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_rt_server/mne_rt_server.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/dacqserver.h
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/shmemsocket.h
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/neuromag_global.h
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/collectorsocket.cpp
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/collectorsocket.h
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/types_definitions.h
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/neuromag.h
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/neuromag.cpp
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/shmemsocket.cpp
+Gabriel B Motta	
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/dacqserver.cpp
+LorenzE	
+./applications/mne_rt_server/plugins/neuromag/neuromag.pro
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/plugins/plugins.pro
+LorenzE	
+./applications/mne_rt_server/plugins/fiffsimulator/fiffsimulator_global.h
+LorenzE	
+./applications/mne_rt_server/plugins/fiffsimulator/fiffsimulator.pro
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/plugins/fiffsimulator/fiffproducer.cpp
+LorenzE	
+./applications/mne_rt_server/plugins/fiffsimulator/fiffsimulator.h
+LorenzE	
+./applications/mne_rt_server/plugins/fiffsimulator/fiffsimulator.cpp
+LorenzE	
+Lorenz Esch	
+./applications/mne_rt_server/plugins/fiffsimulator/fiffproducer.h
+LorenzE	
+./applications/mne_dipole_fit/mne_dipole_fit.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./applications/mne_dipole_fit/main.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/mne_scan/startupwidget.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/mainwindow.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/mne_scan/runwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/mne_scan/startupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/mne_scan/plugingui.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/info.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/arrow.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/mainsplashscreen.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/plugingui.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/mne_scan/mainsplashscreen.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/mne_scan/mainwindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/mne_scan/pluginscene.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/pluginscene.cpp
+Christoph Dinh	
+Gabriel B Motta	
+./applications/mne_scan/mne_scan/pluginitem.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/arrow.cpp
+Christoph Dinh	
+./applications/mne_scan/mne_scan/pluginitem.cpp
+Christoph Dinh	
+./applications/mne_scan/mne_scan/mne_scan.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./applications/mne_scan/mne_scan/runwidget.h
+Christoph Dinh	
+./applications/mne_scan/mne_scan/main.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/babymeg/babymeginfo.cpp
+Christoph Dinh	
+liminsun	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/babymegclient.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/babymeg.h
+Christoph Dinh	
+Gabriel B Motta	
+liminsun	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/babymeg.cpp
+Christoph Dinh	
+Gabriel B Motta	
+liminsun	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/babymeg/babymeg_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/babymeginfo.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/babymegclient.cpp
+Christoph Dinh	
+liminsun	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/babymeg.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/babymeg/FormFiles/babymegaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/babymegsetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/babymegsquidcontroldgl.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/globalobj.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/plotter.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/globalobj.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/plotter.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/babymegsquidcontroldgl.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/babymegaboutwidget.cpp
+Christoph Dinh	
+liminsun	
+LorenzE	
+./applications/mne_scan/plugins/babymeg/FormFiles/babymegsetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtcmne/rtcmne.cpp
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmne/rtcmne_global.h
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmne/rtcmne.h
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmne/FormFiles/rtcmneaboutwidget.h
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmne/FormFiles/rtcmnesetupwidget.cpp
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmne/FormFiles/rtcmnesetupwidget.h
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmne/FormFiles/rtcmneaboutwidget.cpp
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmne/rtcmne.pro
+Lorenz Esch	
+./applications/mne_scan/plugins/noise/noiseestimate.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/noise/noiseestimate_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/noise/noise.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/noise/noiseestimate.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/noise/FormFiles/noiseestimatesetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/noise/FormFiles/noiseestimatesetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/reference/reference_global.h
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/reference/reference.h
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/reference/eegref.h
+LorenzE	
+./applications/mne_scan/plugins/reference/reference.cpp
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/reference/reference.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+Viktor	
+./applications/mne_scan/plugins/reference/FormFiles/referencetoolbarwidget.h
+Christoph Dinh	
+Viktor	
+./applications/mne_scan/plugins/reference/FormFiles/referencetoolbarwidget.cpp
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/reference/FormFiles/referenceaboutwidget.cpp
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/reference/FormFiles/referencesetupwidget.cpp
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/reference/FormFiles/referencesetupwidget.h
+Viktor	
+./applications/mne_scan/plugins/reference/FormFiles/referenceaboutwidget.h
+Viktor	
+./applications/mne_scan/plugins/reference/eegref.cpp
+Gabriel B Motta	
+LorenzE	
+./applications/mne_scan/plugins/rthpi/rthpi_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rthpi/rthpi.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/rthpi/rthpi.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/rthpi/rthpi.cpp
+Christoph Dinh	
+liminsun	
+LorenzE	
+./applications/mne_scan/plugins/rthpi/FormFiles/rthpisetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rthpi/FormFiles/rthpiaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rthpi/FormFiles/rthpiaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rthpi/FormFiles/rthpisetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/directrecord.h
+Christoph Dinh	
+./applications/mne_scan/plugins/neuromag/neuromagproducer.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/neuromag_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/directrecord.cpp
+Christoph Dinh	
+./applications/mne_scan/plugins/neuromag/neuromag.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/neuromag.cpp
+Christoph Dinh	
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/neuromag/neuromagproducer.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/neuromag/FormFiles/neuromagaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/FormFiles/neuromagaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/FormFiles/neuromagsetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/FormFiles/neuromagsetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/neuromag/neuromag.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/eegosports/eegosports.pro
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/eegosportsproducer.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/eegosports.cpp
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/eegosportsdriver.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/eegosports.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/eegosportsdriver.cpp
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/eegosportsproducer.cpp
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/eegosports_global.h
+Christoph Dinh	
+./applications/mne_scan/plugins/eegosports/FormFiles/eegosportsaboutwidget.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/FormFiles/eegosportssetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/FormFiles/eegosportssetupprojectwidget.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/FormFiles/eegosportssetupprojectwidget.cpp
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/FormFiles/eegosportssetupwidget.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/eegosports/FormFiles/eegosportsaboutwidget.cpp
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/rtcmusic/rtcmusic_global.h
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmusic/rtcmusic.pro
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmusic/rtcmusic.cpp
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmusic/rtcmusic.h
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmusic/FormFiles/rtcmusicaboutwidget.cpp
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmusic/FormFiles/rtcmusicsetupwidget.cpp
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmusic/FormFiles/rtcmusicaboutwidget.h
+Lorenz Esch	
+./applications/mne_scan/plugins/rtcmusic/FormFiles/rtcmusicsetupwidget.h
+Lorenz Esch	
+./applications/mne_scan/plugins/gusbamp/gusbamp.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/gusbampproducer.cpp
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/gusbampdriver.cpp
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/gusbampdriver.h
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/gusbamp.pro
+Christoph Dinh	
+LorenzE	
+Viktor	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/gusbampproducer.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/gusbamp_global.h
+Christoph Dinh	
+./applications/mne_scan/plugins/gusbamp/gusbamp.cpp
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/FormFiles/gusbampsetupprojectwidget.h
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/FormFiles/gusbampsetupwidget.h
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/FormFiles/gusbampsetupprojectwidget.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/FormFiles/gusbampaboutwidget.cpp
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/FormFiles/gusbampaboutwidget.h
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/gusbamp/FormFiles/gusbampsetupwidget.cpp
+Christoph Dinh	
+ViktorKL	
+./applications/mne_scan/plugins/rtsss/rtsssalgo_test.cpp
+1DIce	
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/rtsssalgo.h
+Christoph Dinh	
+./applications/mne_scan/plugins/rtsss/rtsss_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/rtsss.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/rtsssalgo_test.h
+Christoph Dinh	
+./applications/mne_scan/plugins/rtsss/rtsssalgo.cpp
+1DIce	
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/rtsss.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/FormFiles/rtsssaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/FormFiles/rtsssrunwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/rtsss/FormFiles/rtssssetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/FormFiles/rtsssaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/FormFiles/rtsssrunwidget.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/rtsss/FormFiles/rtssssetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/rtsss/rtsss.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/plugins.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+louis	
+sheinke	
+Viktor	
+ViktorKL	
+./applications/mne_scan/plugins/dummytoolbox/dummytoolbox.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/dummytoolbox/dummytoolbox.h
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/dummytoolbox/dummytoolbox.cpp
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/dummytoolbox/dummytoolbox_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/dummytoolbox/FormFiles/dummysetupwidget.h
+Christoph Dinh	
+Viktor	
+./applications/mne_scan/plugins/dummytoolbox/FormFiles/dummyyourwidget.h
+Christoph Dinh	
+Viktor	
+./applications/mne_scan/plugins/dummytoolbox/FormFiles/dummysetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/dummytoolbox/FormFiles/dummyaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/dummytoolbox/FormFiles/dummyaboutwidget.h
+Christoph Dinh	
+Viktor	
+./applications/mne_scan/plugins/dummytoolbox/FormFiles/dummyyourwidget.cpp
+Christoph Dinh	
+LorenzE	
+Viktor	
+./applications/mne_scan/plugins/noisereduction/noisereduction.cpp
+Christoph Dinh	
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/noisereduction/noisereduction.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/noisereduction/noisereduction_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/noisereduction/FormFiles/noisereductionsetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/noisereduction/FormFiles/noisereductionaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/noisereduction/FormFiles/noisereductionaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/noisereduction/FormFiles/noisereductionsetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/noisereduction/noisereduction.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsi.pro
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/tmsi/tmsiproducer.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsiimpedanceview.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsiimpedanceview.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsiimpedancescene.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsi.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsielectrodeitem.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsi_global.h
+Christoph Dinh	
+./applications/mne_scan/plugins/tmsi/tmsiimpedancescene.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsielectrodeitem.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsidriver.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsiproducer.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsi.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+ViktorKL	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsisetupprojectwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsimanualannotationwidget.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsisetupwidget.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsisetupprojectwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsiimpedancewidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsiaboutwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsimanualannotationwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsiimpedancewidget.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsiaboutwidget.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/FormFiles/tmsisetupwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/tmsi/tmsidriver.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/ecgsimulator/ecgsimulator.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/ecgsimchannel.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/ecgproducer.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/ecgproducer.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/ecgsimchannel.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/ecgsimulator_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/ecgsimulator.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/ecgsimulator/FormFiles/ecgsetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/FormFiles/ecgaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/FormFiles/ecgaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/FormFiles/ecgsetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/ecgsimulator/ecgsimulator.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/fiffsimulator/fiffsimulator_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/fiffsimulator/fiffsimulator.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/fiffsimulator/fiffsimulatorproducer.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/fiffsimulator/fiffsimulator.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/fiffsimulator/fiffsimulator.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/fiffsimulator/fiffsimulatorproducer.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/fiffsimulator/FormFiles/fiffsimulatorsetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/fiffsimulator/FormFiles/fiffsimulatoraboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/fiffsimulator/FormFiles/fiffsimulatorsetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/fiffsimulator/FormFiles/fiffsimulatoraboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/serialport.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/triggercontrol.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/triggercontrol.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/triggercontrol_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/triggercontrol.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/triggercontrol/FormFiles/triggercontrolaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/FormFiles/settingswidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/FormFiles/settingswidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/FormFiles/triggercontrolaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/FormFiles/triggercontrolsetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/FormFiles/triggercontrolsetupwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/triggercontrol/serialport.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/natus/natusproducer.cpp
+Gabriel B Motta	
+LorenzE	
+./applications/mne_scan/plugins/natus/natusproducer.h
+LorenzE	
+./applications/mne_scan/plugins/natus/natus_global.h
+LorenzE	
+./applications/mne_scan/plugins/natus/natus.h
+LorenzE	
+./applications/mne_scan/plugins/natus/natus.pro
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/natus/natus.cpp
+LorenzE	
+./applications/mne_scan/plugins/natus/FormFiles/natussetup.cpp
+LorenzE	
+./applications/mne_scan/plugins/natus/FormFiles/natussetup.h
+LorenzE	
+./applications/mne_scan/plugins/ssvepbci/ssvepbciflickeringitem.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/ssvepbci_global.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/ssvepbci.cpp
+LorenzE	
+Viktor	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/ssvepbciscreen.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/ssvepbci.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+Viktor	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/screenkeyboard.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/ssvepbci.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/ssvepbciscreen.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/screenkeyboard.cpp
+Gabriel B Motta	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/ssvepbciflickeringitem.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbciaboutwidget.h
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbcisetupstimuluswidget.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbciconfigurationwidget.h
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbciwidget.h
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbciconfigurationwidget.cpp
+Gabriel B Motta	
+LorenzE	
+Viktor	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbciaboutwidget.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbcisetupstimuluswidget.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/ssvepbci/FormFiles/ssvepbciwidget.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/lsladapter/lsladapter.pro
+LorenzE	
+sheinke	
+./applications/mne_scan/plugins/lsladapter/lsladapter.cpp
+LorenzE	
+sheinke	
+./applications/mne_scan/plugins/lsladapter/lsladapterproducer.h
+sheinke	
+./applications/mne_scan/plugins/lsladapter/lsladapter.h
+sheinke	
+./applications/mne_scan/plugins/lsladapter/lsladapterproducer.cpp
+sheinke	
+./applications/mne_scan/plugins/lsladapter/lsladapter_global.h
+LorenzE	
+sheinke	
+./applications/mne_scan/plugins/lsladapter/FormFiles/lsladaptersetup.h
+sheinke	
+./applications/mne_scan/plugins/lsladapter/FormFiles/lsladaptersetup.cpp
+sheinke	
+./applications/mne_scan/plugins/epidetect/calcmetric.h
+louiseichhorst	
+./applications/mne_scan/plugins/epidetect/epidetect.h
+Christoph Dinh	
+LorenzE	
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/epidetect/fuzzymembership.h
+louiseichhorst	
+./applications/mne_scan/plugins/epidetect/epidetect.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/epidetect/calcmetric.cpp
+Gabriel B Motta	
+LorenzE	
+louiseichhorst	
+./applications/mne_scan/plugins/epidetect/epidetect.cpp
+Erik Hornberger	
+Gabriel B Motta	
+LorenzE	
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/epidetect/fuzzymembership.cpp
+louiseichhorst	
+./applications/mne_scan/plugins/epidetect/epidetect_global.h
+LorenzE	
+louis	
+./applications/mne_scan/plugins/epidetect/FormFiles/epidetectaboutwidget.cpp
+LorenzE	
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/epidetect/FormFiles/epidetectaboutwidget.h
+louis	
+./applications/mne_scan/plugins/epidetect/FormFiles/epidetectwidget.cpp
+Gabriel B Motta	
+LorenzE	
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/epidetect/FormFiles/epidetectsetupwidget.h
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/epidetect/FormFiles/epidetectsetupwidget.cpp
+LorenzE	
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/epidetect/FormFiles/epidetectwidget.h
+louis	
+Louis Eichhorst	
+./applications/mne_scan/plugins/neuronalconnectivity/neuronalconnectivity.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/neuronalconnectivity/neuronalconnectivity.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/neuronalconnectivity/neuronalconnectivity.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/neuronalconnectivity/FormFiles/neuronalconnectivityaboutwidget.h
+LorenzE	
+./applications/mne_scan/plugins/neuronalconnectivity/FormFiles/neuronalconnectivitysetupwidget.cpp
+LorenzE	
+./applications/mne_scan/plugins/neuronalconnectivity/FormFiles/neuronalconnectivitysetupwidget.h
+LorenzE	
+./applications/mne_scan/plugins/neuronalconnectivity/FormFiles/neuronalconnectivityaboutwidget.cpp
+LorenzE	
+./applications/mne_scan/plugins/neuronalconnectivity/neuronalconnectivity_global.h
+LorenzE	
+./applications/mne_scan/plugins/bci/bci_global.h
+Christoph Dinh	
+./applications/mne_scan/plugins/bci/bci.cpp
+1DIce	
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/bci/bci.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/bci/bci.pro
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/bci/FormFiles/bcifeaturewindow.cpp
+Christoph Dinh	
+Gabriel B Motta	
+LorenzE	
+./applications/mne_scan/plugins/bci/FormFiles/bciaboutwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/bci/FormFiles/bcisetupwidget.h
+Christoph Dinh	
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/bci/FormFiles/bciaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/bci/FormFiles/bcifeaturewindow.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/bci/FormFiles/bcisetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/averaging/averaging.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/averaging/averaging_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/averaging/averaging.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/averaging/averaging.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/averaging/FormFiles/averagingsetupwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/averaging/FormFiles/averagingsetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/averaging/FormFiles/averagingaboutwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/averaging/FormFiles/averagingaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/covariance.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/covariance_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/plugins/covariance/covariance.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/FormFiles/covariancesetupwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/FormFiles/covariancesettingswidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/FormFiles/covarianceaboutwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/FormFiles/covariancesettingswidget.cpp
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/FormFiles/covarianceaboutwidget.h
+Christoph Dinh	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/FormFiles/covariancesetupwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/covariance/covariance.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/plugins/brainamp/brainampdriver.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/brainamp.pro
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/brainampproducer.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/brainampdriver.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/brainamp.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/brainamp.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/brainampproducer.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/brainamp_global.h
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/FormFiles/brainampaboutwidget.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/FormFiles/brainampsetupprojectwidget.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/FormFiles/brainampaboutwidget.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/FormFiles/brainampsetupprojectwidget.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/FormFiles/brainampsetupwidget.cpp
+LorenzE	
+ViktorKL	
+./applications/mne_scan/plugins/brainamp/FormFiles/brainampsetupwidget.h
+LorenzE	
+ViktorKL	
+./applications/mne_scan/libs/scDisp/realtimespectrumwidget.h
+LorenzE	
+./applications/mne_scan/libs/scDisp/realtimeconnectivityestimatewidget.cpp
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimesourceestimatewidget.h
+Christoph Dinh	
+juangpc	
+LorenzE	
+./applications/mne_scan/libs/scDisp/realtimeevokedsetwidget.h
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimesamplearraywidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scDisp/scDisp.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimemultisamplearraywidget.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimecovwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scDisp/realtimecovwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimesamplearraywidget.cpp
+1DIce	
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scDisp/measurementwidget.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scDisp/measurementwidget.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimeevokedsetwidget.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/scdisp_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scDisp/realtimemultisamplearraywidget.cpp
+1DIce	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimeconnectivityestimatewidget.h
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimesourceestimatewidget.cpp
+Christoph Dinh	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scDisp/realtimespectrumwidget.cpp
+LorenzE	
+./applications/mne_scan/libs/libs.pro
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginoutputdata.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginconnectorconnectionwidget.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/displaymanager.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/plugininputdata.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/plugininputdata.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginconnector.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/pluginoutputconnector.cpp
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/displaymanager.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginconnector.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginoutputconnector.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginmanager.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/pluginconnectorconnection.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/pluginconnectorconnection.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/plugininputconnector.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/plugininputconnector.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginoutputdata.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/pluginscenemanager.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Management/pluginconnectorconnectionwidget.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Management/pluginmanager.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scShared/Management/pluginscenemanager.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scShared/Interfaces/IAlgorithm.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Interfaces/IPlugin.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Interfaces/ISensor.h
+Christoph Dinh	
+./applications/mne_scan/libs/scShared/Interfaces/IIO.h
+Christoph Dinh	
+Gabriel B Motta	
+./applications/mne_scan/libs/scShared/scShared.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scShared/scshared_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimesamplearraychinfo.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimemultisamplearray.h
+LorenzE	
+./applications/mne_scan/libs/scMeas/scMeas.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scMeas/realtimeevokedset.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scMeas/measurement.cpp
+LorenzE	
+./applications/mne_scan/libs/scMeas/numeric.cpp
+LorenzE	
+./applications/mne_scan/libs/scMeas/measurement.h
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimesourceestimate.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimesamplearray.h
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimesamplearray.cpp
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimespectrum.cpp
+LorenzE	
+./applications/mne_scan/libs/scMeas/numeric.h
+LorenzE	
+./applications/mne_scan/libs/scMeas/measurementtypes.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scMeas/scmeas_global.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimespectrum.h
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimemultisamplearray.cpp
+LorenzE	
+./applications/mne_scan/libs/scMeas/realtimeevokedset.h
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scMeas/measurementtypes.h
+Christoph Dinh	
+./applications/mne_scan/libs/scMeas/realtimecov.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scMeas/realtimesamplearraychinfo.h
+Christoph Dinh	
+./applications/mne_scan/libs/scMeas/realtimecov.h
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scMeas/realtimesourceestimate.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scMeas/realtimeconnectivityestimate.h
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/libs/scMeas/realtimeconnectivityestimate.cpp
+LorenzE	
+Lorenz Esch	
+./applications/mne_scan/mne_scan.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/fiffio/fiffio_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/fiffio/fiffio.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/fiffio/fiffio.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/fiffio/fiffio.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/stcbrowser/stcbrowser.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/stcbrowser/stcbrowser.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/stcbrowser/stcbrowser.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/stcbrowser/stcbrowser_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/stcbrowser/FormFiles/stccontrol.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/stcbrowser/FormFiles/stccontrol.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/music/music_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/music/music.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/music/music.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/music/music.cpp
+Christoph Dinh	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/music/FormFiles/musiccontrol.cpp
+Christoph Dinh	
+./applications/mne_analyze/extensions/music/FormFiles/musiccontrol.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/invmne/invmne.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/invmne/invmne_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/invmne/invmne.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/invmne/FormFiles/invmnecontrol.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/invmne/FormFiles/invmnecontrol.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/invmne/invmne.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/surfer/surfer.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/surfer/Views/view3danalyze.cpp
+Christoph Dinh	
+Gabriel B Motta	
+Lorenz Esch	
+./applications/mne_analyze/extensions/surfer/Views/baseview.cpp
+Christoph Dinh	
+./applications/mne_analyze/extensions/surfer/Views/baseview.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/surfer/Views/view3danalyze.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/surfer/surfer_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/surfer/surfer.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/surfer/surfer.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/deepcntk/deepcntk.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/deepcntk/deepcntkmanager.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/deepcntk/deepcntkmanager.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntk/IDeepCNTKNet.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntk/deepcntk_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntk/deepcntk.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntk/deepcntk.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/deepcntknets/fnn/fnn.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/deepcntknets/fnn/fnn_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntknets/fnn/fnn.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntknets/fnn/fnn.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/deepcntknets/dnn/dnn.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntknets/dnn/dnn.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/extensions/deepcntknets/dnn/dnn.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/deepcntknets/dnn/dnn_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/deepcntknets/deepcntknets.pro
+Christoph Dinh	
+./applications/mne_analyze/extensions/extensions.pro
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/dipolefit/dipolefit.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/extensions/dipolefit/dipolefit.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/dipolefit/dipolefit_global.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/dipolefit/FormFiles/dipolefitcontrol.h
+Christoph Dinh	
+./applications/mne_analyze/extensions/dipolefit/FormFiles/dipolefitcontrol.cpp
+Christoph Dinh	
+./applications/mne_analyze/extensions/dipolefit/dipolefit.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/mne_analyze/mainwindow.h
+Christoph Dinh	
+./applications/mne_analyze/mne_analyze/info.h
+Christoph Dinh	
+./applications/mne_analyze/mne_analyze/mainwindow.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/mne_analyze/mdiview.cpp
+Christoph Dinh	
+./applications/mne_analyze/mne_analyze/mne_analyze.pro
+buildqa	
+Christoph Dinh	
+Erik Hornberger	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/mne_analyze/mdiview.h
+Christoph Dinh	
+./applications/mne_analyze/mne_analyze/main.cpp
+Christoph Dinh	
+./applications/mne_analyze/mne_analyze.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/libs/anShared/anshared_global.h
+Christoph Dinh	
+./applications/mne_analyze/libs/anShared/Management/analyzedata.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/libs/anShared/Management/analyzesettings.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/libs/anShared/Management/analyzesettings.h
+Christoph Dinh	
+./applications/mne_analyze/libs/anShared/Management/extensionmanager.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_analyze/libs/anShared/Management/analyzedata.h
+Christoph Dinh	
+./applications/mne_analyze/libs/anShared/Management/extensionmanager.h
+Christoph Dinh	
+./applications/mne_analyze/libs/anShared/anShared.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_analyze/libs/anShared/Interfaces/IStandardView.h
+Christoph Dinh	
+./applications/mne_analyze/libs/anShared/Interfaces/IExtension.h
+Christoph Dinh	
+./applications/mne_analyze/libs/libs.pro
+Christoph Dinh	
+LorenzE	
+./applications/mne_launch/application.cpp
+Christoph Dinh	
+./applications/mne_launch/mnelaunchcontrol.h
+Christoph Dinh	
+LorenzE	
+./applications/mne_launch/application.h
+Christoph Dinh	
+./applications/mne_launch/mnelaunchcontrol.cpp
+buildqa	
+Christoph Dinh	
+LorenzE	
+./applications/mne_launch/mne_launch.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+./applications/mne_launch/main.cpp
+Christoph Dinh	
+./applications/mne_forward_solution/mne_forward_solution.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./applications/mne_forward_solution/main.cpp
+Christoph Dinh	
+./applications/applications.pro
+Chiran	
+Christoph Dinh	
+Florian Schlembach	
+GBeret	
+LorenzE	
+louis	
+Seok Lew	
+Tim Kunze	
+./applications/mne_show_fiff/mne_fiff_exp.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_show_fiff/mne_fiff_exp_set.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_show_fiff/mne_show_fiff_settings.h
+Christoph Dinh	
+./applications/mne_show_fiff/mne_show_fiff_settings.cpp
+Christoph Dinh	
+LorenzE	
+./applications/mne_show_fiff/mne_show_fiff.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./applications/mne_show_fiff/mne_fiff_exp.h
+Christoph Dinh	
+./applications/mne_show_fiff/mne_fiff_exp_set.h
+Christoph Dinh	
+./applications/mne_show_fiff/main.cpp
+Christoph Dinh	
+LorenzE	
+./testframes/test_fiff_cov/test_fiff_cov.cpp
+1DIce	
+Gabriel B Motta	
+LorenzE	
+./testframes/test_fiff_cov/test_fiff_cov.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./testframes/testframes.pro
+1DIce	
+Christoph Dinh	
+doerfelruben@aol.com	
+Felix	
+Gabriel B Motta	
+joewalter	
+LorenzE	
+rickytjen	
+Ruben Doerfel	
+SugandhaSachdeva	
+./testframes/test_fiff_digitizer/test_fiff_digitizer.cpp
+Gabriel B Motta	
+LorenzE	
+./testframes/test_fiff_digitizer/test_fiff_digitizer.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./testframes/test_mne_msh_display_surface_set/test_mne_msh_display_surface_set.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./testframes/test_mne_msh_display_surface_set/test_mne_msh_display_surface_set.cpp
+Gabriel B Motta	
+LorenzE	
+./testframes/test_interpolation/test_interpolation.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+MKlamke	
+sheinke	
+SugandhaSachdeva	
+./testframes/test_interpolation/test_interpolation.cpp
+1DIce	
+Gabriel B Motta	
+LorenzE	
+MKlamke	
+PetrosSimidyan	
+sheinke	
+SugandhaSachdeva	
+./testframes/test_fiff_rwr/test_fiff_rwr.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./testframes/test_fiff_rwr/test_fiff_rwr.cpp
+Christoph Dinh	
+Gabriel B Motta	
+LorenzE	
+./testframes/test_new_3d/test_new_3d.pro
+Christoph Dinh	
+./testframes/test_new_3d/common/window.h
+Christoph Dinh	
+./testframes/test_new_3d/common/window.cpp
+Christoph Dinh	
+./testframes/test_new_3d/main.cpp
+Christoph Dinh	
+./testframes/test_dipole_fit/test_dipole_fit.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./testframes/test_dipole_fit/test_dipole_fit.cpp
+Christoph Dinh	
+Gabriel B Motta	
+./testframes/test_filtering/test_filtering.pro
+doerfelruben@aol.com	
+./testframes/test_filtering/test_filtering.cpp
+doerfelruben@aol.com	
+./testframes/test_spectral_connectivity/test_spectral_connectivity.pro
+joewalter	
+LorenzE	
+Lorenz Esch	
+./testframes/test_spectral_connectivity/test_spectral_connectivity.cpp
+Gabriel B Motta	
+joewalter	
+LorenzE	
+Lorenz Esch	
+./testframes/test_mne_forward_solution/test_mne_forward_solution.pro
+LorenzE	
+./testframes/test_mne_forward_solution/test_mne_forward_solution.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./testframes/test_geometryinfo/test_geometryinfo.pro
+Christoph Dinh	
+Felix	
+LorenzE	
+Lorenz Esch	
+Petros Simidyan	
+sheinke	
+SugandhaSachdeva	
+./testframes/test_geometryinfo/test_geometryinfo.cpp
+1DIce	
+Blerta Hamzallari	
+Felix	
+Gabriel B Motta	
+lorenze	
+LorenzE	
+MKlamke	
+Petros Simidyan	
+sheinke	
+SugandhaSachdeva	
+./testframes/test_fiff_mne_types_io/test_fiff_mne_types_io.cpp
+Christoph Dinh	
+Gabriel B Motta	
+LorenzE	
+./testframes/test_fiff_mne_types_io/fiff_types_ref.h
+Christoph Dinh	
+./testframes/test_fiff_mne_types_io/test_fiff_mne_types_io.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./libraries/libraries.pro
+1DIce	
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtave.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtfilter.cpp
+doerfelruben@aol.com	
+LorenzE	
+Lorenz Esch	
+Ruben Doerfel	
+./libraries/rtprocessing/rtprocessing.pro
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtnoise.h
+Lorenz Esch	
+./libraries/rtprocessing/rtfilter.h
+doerfelruben@aol.com	
+Lorenz Esch	
+Ruben Doerfel	
+./libraries/rtprocessing/rtinvop.h
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rthpis.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtconnectivity.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rthpis.h
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtprocessing_global.h
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtconnectivity.h
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtinvop.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtcov.h
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtave.h
+LorenzE	
+Lorenz Esch	
+./libraries/rtprocessing/rtnoise.cpp
+Lorenz Esch	
+./libraries/rtprocessing/rtcov.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/viewers/networkview.h
+LorenzE	
+./libraries/disp3D/viewers/ecdview.h
+LorenzE	
+./libraries/disp3D/viewers/hpiview.h
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/viewers/sourceestimateview.h
+juangpc	
+LorenzE	
+./libraries/disp3D/viewers/networkview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/viewers/abstractview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/viewers/ecdview.cpp
+LorenzE	
+./libraries/disp3D/viewers/abstractview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/viewers/sourceestimateview.cpp
+juangpc	
+LorenzE	
+./libraries/disp3D/viewers/hpiview.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/delegate/data3Dtreedelegate.h
+LorenzE	
+./libraries/disp3D/engine/delegate/data3Dtreedelegate.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/view/customframegraph.cpp
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/view/orbitalcameracontroller.h
+1DIce	
+./libraries/disp3D/engine/view/view3D.h
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/view/view3D.cpp
+1Dice	
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/view/orbitalcameracontroller.cpp
+1DIce	
+./libraries/disp3D/engine/view/customframegraph.h
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/data3Dtreemodel.cpp
+1DIce	
+Gabriel B Motta	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/materials/pervertextessphongalphamaterial.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/shownormalsmaterial.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/pervertexphongalphamaterial.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/geometrymultipliermaterial.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/pervertexphongalphamaterial.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/gpuinterpolationmaterial.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/networkmaterial.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/pervertextessphongalphamaterial.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/networkmaterial.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/abstractphongalphamaterial.cpp
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/materials/geometrymultipliermaterial.h
+1DIce	
+./libraries/disp3D/engine/model/materials/gpuinterpolationmaterial.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/materials/abstractphongalphamaterial.h
+1Dice	
+1DIce	
+./libraries/disp3D/engine/model/materials/shownormalsmaterial.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/workers/rtSensorData/rtsensordataworker.h
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/workers/rtSensorData/rtsensordataworker.cpp
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/workers/rtSensorData/rtsensorinterpolationmatworker.h
+LorenzE	
+./libraries/disp3D/engine/model/workers/rtSensorData/rtsensorinterpolationmatworker.cpp
+LorenzE	
+./libraries/disp3D/engine/model/workers/rtSensorData/rtsensordatacontroller.cpp
+lorenze	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/workers/rtSensorData/rtsensordatacontroller.h
+LorenzE	
+./libraries/disp3D/engine/model/workers/rtSourceLoc/rtsourcedatacontroller.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/workers/rtSourceLoc/rtsourcedataworker.cpp
+1DIce	
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/workers/rtSourceLoc/rtsourceinterpolationmatworker.h
+LorenzE	
+./libraries/disp3D/engine/model/workers/rtSourceLoc/rtsourcedatacontroller.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/workers/rtSourceLoc/rtsourceinterpolationmatworker.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/workers/rtSourceLoc/rtsourcedataworker.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/3dhelpers/custommesh.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/3dhelpers/geometrymultiplier.cpp
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/3dhelpers/custommesh.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/3dhelpers/geometrymultiplier.h
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/3dhelpers/renderable3Dentity.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/3dhelpers/renderable3Dentity.cpp
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/bem/bemtreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/items/bem/bemsurfacetreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/items/bem/bemtreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/bem/bemsurfacetreeitem.h
+1Dice	
+LorenzE	
+./libraries/disp3D/engine/model/items/sourcespace/sourcespacetreeitem.cpp
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/items/sourcespace/sourcespacetreeitem.h
+1Dice	
+LorenzE	
+./libraries/disp3D/engine/model/items/subject/subjecttreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/items/subject/subjecttreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/mri/mritreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/mri/mritreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/items/hemisphere/hemispheretreeitem.cpp
+juangpc	
+LorenzE	
+./libraries/disp3D/engine/model/items/hemisphere/hemispheretreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/sourcedata/ecddatatreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/sourcedata/mnedatatreeitem.cpp
+juangpc	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/sourcedata/ecddatatreeitem.cpp
+1Dice	
+Gabriel B Motta	
+LorenzE	
+./libraries/disp3D/engine/model/items/sourcedata/mnedatatreeitem.h
+juangpc	
+LorenzE	
+./libraries/disp3D/engine/model/items/freesurfer/fssurfacetreeitem.cpp
+1DIce	
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/freesurfer/fssurfacetreeitem.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/freesurfer/fsannotationtreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/items/freesurfer/fsannotationtreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/digitizer/digitizersettreeitem.h
+1Dice	
+LorenzE	
+./libraries/disp3D/engine/model/items/digitizer/digitizersettreeitem.cpp
+1DIce	
+Gabriel B Motta	
+LorenzE	
+./libraries/disp3D/engine/model/items/digitizer/digitizertreeitem.cpp
+1Dice	
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/digitizer/digitizertreeitem.h
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/items/network/networktreeitem.cpp
+1Dice	
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/network/networktreeitem.h
+1Dice	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/common/gpuinterpolationitem.h
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/items/common/abstract3Dtreeitem.h
+1Dice	
+LorenzE	
+./libraries/disp3D/engine/model/items/common/metatreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/common/abstracttreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/items/common/abstract3Dtreeitem.cpp
+1Dice	
+LorenzE	
+./libraries/disp3D/engine/model/items/common/types.h
+1DIce	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/common/abstractmeshtreeitem.h
+1Dice	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/common/gpuinterpolationitem.cpp
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/items/common/metatreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/items/common/abstractmeshtreeitem.cpp
+1Dice	
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/common/abstracttreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/sensordata/sensordatatreeitem.cpp
+1DIce	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/sensordata/sensordatatreeitem.h
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/items/measurement/measurementtreeitem.cpp
+1DIce	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/measurement/measurementtreeitem.h
+1DIce	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/engine/model/items/sensorspace/sensorpositiontreeitem.cpp
+1Dice	
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/items/sensorspace/sensorsurfacetreeitem.cpp
+1DIce	
+LorenzE	
+./libraries/disp3D/engine/model/items/sensorspace/sensorpositiontreeitem.h
+1Dice	
+LorenzE	
+./libraries/disp3D/engine/model/items/sensorspace/sensorsettreeitem.h
+LorenzE	
+./libraries/disp3D/engine/model/items/sensorspace/sensorsurfacetreeitem.h
+1Dice	
+LorenzE	
+./libraries/disp3D/engine/model/items/sensorspace/sensorsettreeitem.cpp
+LorenzE	
+./libraries/disp3D/engine/model/data3Dtreemodel.h
+1DIce	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/helpers/interpolation/interpolation.cpp
+LorenzE	
+./libraries/disp3D/helpers/interpolation/interpolation.h
+LorenzE	
+./libraries/disp3D/helpers/geometryinfo/geometryinfo.h
+lorenze	
+LorenzE	
+./libraries/disp3D/helpers/geometryinfo/geometryinfo.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/disp3D/disp3D.pro
+1Dice	
+1DIce	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./libraries/disp3D/disp3D_global.h
+LorenzE	
+./libraries/utils/spectral.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/utils/warp.cpp
+LorenzE	
+./libraries/utils/sphere.h
+LorenzE	
+./libraries/utils/sphere.cpp
+LorenzE	
+./libraries/utils/kmeans.cpp
+LorenzE	
+./libraries/utils/generics/observerpattern.cpp
+LorenzE	
+./libraries/utils/generics/circularbuffer_old.h
+LorenzE	
+./libraries/utils/generics/observerpattern.h
+LorenzE	
+./libraries/utils/generics/commandpattern.h
+LorenzE	
+./libraries/utils/generics/buffer.cpp
+LorenzE	
+./libraries/utils/generics/circularmatrixbuffer.h
+LorenzE	
+./libraries/utils/generics/buffer.h
+LorenzE	
+./libraries/utils/generics/circularmatrixbuffer.cpp
+LorenzE	
+./libraries/utils/generics/circularbuffer.h
+LorenzE	
+./libraries/utils/generics/circularbuffer.cpp
+LorenzE	
+./libraries/utils/generics/circularmultichannelbuffer_old.h
+LorenzE	
+./libraries/utils/generics/typename_old.h
+LorenzE	
+./libraries/utils/layoutmaker.h
+LorenzE	
+./libraries/utils/filterTools/parksmcclellan.cpp
+LorenzE	
+./libraries/utils/filterTools/cosinefilter.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/utils/filterTools/parksmcclellan.h
+LorenzE	
+./libraries/utils/filterTools/sphara.cpp
+buildqa	
+LorenzE	
+./libraries/utils/filterTools/filterio.h
+LorenzE	
+./libraries/utils/filterTools/cosinefilter.h
+LorenzE	
+./libraries/utils/filterTools/filterio.cpp
+LorenzE	
+./libraries/utils/filterTools/sphara.h
+LorenzE	
+./libraries/utils/filterTools/filterdata.h
+LorenzE	
+Ruben Doerfel	
+./libraries/utils/filterTools/filterdata.cpp
+LorenzE	
+Lorenz Esch	
+Ruben Doerfel	
+./libraries/utils/simplex_algorithm.h
+LorenzE	
+./libraries/utils/selectionio.h
+LorenzE	
+./libraries/utils/ioutils.cpp
+LorenzE	
+./libraries/utils/selectionio.cpp
+LorenzE	
+./libraries/utils/detecttrigger.cpp
+LorenzE	
+./libraries/utils/mnemath.h
+LorenzE	
+./libraries/utils/kmeans.h
+LorenzE	
+./libraries/utils/mnemath.cpp
+LorenzE	
+./libraries/utils/detecttrigger.h
+LorenzE	
+./libraries/utils/utils_global.h
+LorenzE	
+./libraries/utils/warp.h
+LorenzE	
+./libraries/utils/layoutloader.cpp
+LorenzE	
+./libraries/utils/layoutloader.h
+LorenzE	
+./libraries/utils/layoutmaker.cpp
+LorenzE	
+./libraries/utils/spectrogram.h
+LorenzE	
+Lorenz Esch	
+./libraries/utils/spectral.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/utils/utils.pro
+1DIce	
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/utils/mp/atom.cpp
+LorenzE	
+./libraries/utils/mp/fixdictmp.h
+LorenzE	
+./libraries/utils/mp/atom.h
+LorenzE	
+./libraries/utils/mp/adaptivemp.h
+LorenzE	
+./libraries/utils/mp/adaptivemp.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/utils/mp/fixdictmp.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/utils/ioutils.h
+LorenzE	
+./libraries/utils/spectrogram.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/connectivity.h
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/connectivity_global.h
+LorenzE	
+./libraries/connectivity/metrics/coherency.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/imagcoherence.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/phaselockingvalue.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/unbiasedsquaredphaselagindex.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/unbiasedsquaredphaselagindex.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/correlation.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/phaselagindex.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/coherence.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/correlation.h
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/crosscorrelation.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/debiasedsquaredweightedphaselagindex.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/weightedphaselagindex.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/coherence.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/abstractmetric.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/coherency.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/weightedphaselagindex.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/phaselockingvalue.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/abstractmetric.h
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/imagcoherence.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/phaselagindex.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/debiasedsquaredweightedphaselagindex.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/metrics/crosscorrelation.h
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/connectivitysettings.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/connectivitysettings.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/connectivity.pro
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/network/network.cpp
+LorenzE	
+Lorenz Esch	
+mfarisyahya	
+./libraries/connectivity/network/networknode.h
+joewalter	
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/network/network.h
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/network/networknode.cpp
+LorenzE	
+./libraries/connectivity/network/networkedge.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/network/networkedge.h
+LorenzE	
+Lorenz Esch	
+./libraries/connectivity/connectivity.cpp
+joewalter	
+LorenzE	
+Lorenz Esch	
+mfarisyahya	
+./libraries/inverse/IInverseAlgorithm.h
+LorenzE	
+Lorenz Esch	
+./libraries/inverse/hpiFit/hpifit.cpp
+LorenzE	
+./libraries/inverse/hpiFit/hpifitdata.h
+LorenzE	
+./libraries/inverse/hpiFit/hpifitdata.cpp
+LorenzE	
+./libraries/inverse/hpiFit/hpifit.h
+LorenzE	
+./libraries/inverse/inverse.pro
+LorenzE	
+Lorenz Esch	
+./libraries/inverse/inverse_global.h
+LorenzE	
+./libraries/inverse/rapMusic/pwlrapmusic.h
+LorenzE	
+./libraries/inverse/rapMusic/dipole.h
+LorenzE	
+./libraries/inverse/rapMusic/rapmusic.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/inverse/rapMusic/pwlrapmusic.cpp
+LorenzE	
+./libraries/inverse/rapMusic/rapmusic.h
+LorenzE	
+Lorenz Esch	
+./libraries/inverse/rapMusic/dipole.cpp
+LorenzE	
+./libraries/inverse/c/mne_inverse_operator.h
+LorenzE	
+./libraries/inverse/c/mne_meas_data_set.h
+LorenzE	
+./libraries/inverse/c/mne_inverse_operator.cpp
+LorenzE	
+./libraries/inverse/c/mne_meas_data.cpp
+LorenzE	
+./libraries/inverse/c/mne_meas_data.h
+LorenzE	
+./libraries/inverse/c/mne_meas_data_set.cpp
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_fit_data.cpp
+LorenzE	
+./libraries/inverse/dipoleFit/ecd_set.h
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_fit_data.h
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_fit.h
+LorenzE	
+./libraries/inverse/dipoleFit/analyze_types.h
+LorenzE	
+./libraries/inverse/dipoleFit/ecd.h
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_forward.h
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_fit_settings.cpp
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_fit_settings.h
+LorenzE	
+./libraries/inverse/dipoleFit/guess_data.h
+LorenzE	
+./libraries/inverse/dipoleFit/ecd.cpp
+LorenzE	
+./libraries/inverse/dipoleFit/guess_data.cpp
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_fit.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/inverse/dipoleFit/dipole_forward.cpp
+LorenzE	
+./libraries/inverse/dipoleFit/ecd_set.cpp
+LorenzE	
+./libraries/inverse/minimumNorm/minimumnorm.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/inverse/minimumNorm/minimumnorm.h
+LorenzE	
+Lorenz Esch	
+./libraries/communication/communication_global.h
+LorenzE	
+Lorenz Esch	
+./libraries/communication/rtCommand/commandmanager.cpp
+Lorenz Esch	
+./libraries/communication/rtCommand/commandparser.h
+Lorenz Esch	
+./libraries/communication/rtCommand/command.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/communication/rtCommand/commandparser.cpp
+Lorenz Esch	
+./libraries/communication/rtCommand/command.h
+Lorenz Esch	
+./libraries/communication/rtCommand/commandmanager.h
+Lorenz Esch	
+./libraries/communication/rtCommand/rawcommand.cpp
+Lorenz Esch	
+./libraries/communication/rtCommand/rawcommand.h
+Lorenz Esch	
+./libraries/communication/rtClient/rtdataclient.h
+Lorenz Esch	
+./libraries/communication/rtClient/rtcmdclient.h
+Lorenz Esch	
+./libraries/communication/rtClient/rtcmdclient.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/communication/rtClient/rtdataclient.cpp
+Lorenz Esch	
+./libraries/communication/rtClient/rtclient.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/communication/rtClient/rtclient.h
+Lorenz Esch	
+./libraries/communication/communication.pro
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_epoch_data_list.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_inverse_operator.h
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_surface.cpp
+LorenzE	
+./libraries/mne/mne_epoch_data.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_epoch_data_list.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_corsourceestimate.cpp
+LorenzE	
+./libraries/mne/mne.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_project_to_surface.h
+LorenzE	
+./libraries/mne/mne_cluster_info.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_sourceestimate.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne.pro
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_sourcespace.cpp
+LorenzE	
+./libraries/mne/mne_project_to_surface.cpp
+LorenzE	
+./libraries/mne/mne_forwardsolution.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_bem_surface.cpp
+LorenzE	
+./libraries/mne/mne_cluster_info.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/mne/mne_bem_surface.h
+LorenzE	
+./libraries/mne/mne_global.h
+LorenzE	
+./libraries/mne/mne_inverse_operator.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/c/mne_msh_eyes.h
+LorenzE	
+./libraries/mne/c/mne_raw_data.h
+LorenzE	
+./libraries/mne/c/mne_mgh_tag_group.h
+LorenzE	
+./libraries/mne/c/mne_proj_item.cpp
+LorenzE	
+./libraries/mne/c/mne_raw_buf_def.cpp
+LorenzE	
+./libraries/mne/c/mne_surface_or_volume.h
+LorenzE	
+./libraries/mne/c/mne_msh_eyes.cpp
+LorenzE	
+./libraries/mne/c/mne_patch_info.cpp
+LorenzE	
+./libraries/mne/c/mne_cov_matrix.cpp
+LorenzE	
+./libraries/mne/c/mne_msh_display_surface.h
+LorenzE	
+./libraries/mne/c/mne_source_space_old.cpp
+LorenzE	
+./libraries/mne/c/filter_thread_arg.h
+LorenzE	
+./libraries/mne/c/mne_deriv.h
+LorenzE	
+./libraries/mne/c/filter_thread_arg.cpp
+LorenzE	
+./libraries/mne/c/mne_vol_geom.h
+LorenzE	
+./libraries/mne/c/mne_msh_light_set.h
+LorenzE	
+./libraries/mne/c/mne_surface_patch.h
+LorenzE	
+./libraries/mne/c/mne_msh_light_set.cpp
+LorenzE	
+./libraries/mne/c/mne_deriv.cpp
+LorenzE	
+./libraries/mne/c/mne_triangle.h
+LorenzE	
+./libraries/mne/c/mne_morph_map.h
+LorenzE	
+./libraries/mne/c/mne_surface_patch.cpp
+LorenzE	
+./libraries/mne/c/mne_morph_map.cpp
+LorenzE	
+./libraries/mne/c/mne_msh_light.h
+LorenzE	
+./libraries/mne/c/mne_msh_display_surface_set.h
+LorenzE	
+./libraries/mne/c/mne_cov_matrix.h
+LorenzE	
+./libraries/mne/c/mne_sss_data.cpp
+LorenzE	
+./libraries/mne/c/mne_triangle.cpp
+LorenzE	
+./libraries/mne/c/mne_msh_color_scale_def.h
+LorenzE	
+./libraries/mne/c/mne_surface_old.cpp
+LorenzE	
+./libraries/mne/c/mne_sss_data.h
+LorenzE	
+./libraries/mne/c/mne_proj_op.h
+LorenzE	
+./libraries/mne/c/mne_raw_info.cpp
+LorenzE	
+./libraries/mne/c/mne_proj_data.h
+LorenzE	
+./libraries/mne/c/mne_ctf_comp_data_set.h
+LorenzE	
+./libraries/mne/c/mne_raw_buf_def.h
+LorenzE	
+./libraries/mne/c/mne_mgh_tag.h
+LorenzE	
+./libraries/mne/c/mne_patch_info.h
+LorenzE	
+./libraries/mne/c/mne_msh_display_surface_set.cpp
+LorenzE	
+./libraries/mne/c/mne_source_space_old.h
+LorenzE	
+./libraries/mne/c/mne_proj_op.cpp
+LorenzE	
+./libraries/mne/c/mne_ctf_comp_data_set.cpp
+LorenzE	
+./libraries/mne/c/mne_types_mne-c.h
+LorenzE	
+./libraries/mne/c/mne_nearest.h
+LorenzE	
+./libraries/mne/c/mne_types.h
+LorenzE	
+./libraries/mne/c/mne_mne_data.cpp
+LorenzE	
+./libraries/mne/c/mne_vol_geom.cpp
+LorenzE	
+./libraries/mne/c/mne_nearest.cpp
+LorenzE	
+./libraries/mne/c/mne_msh_picked.cpp
+LorenzE	
+./libraries/mne/c/mne_ctf_comp_data.h
+LorenzE	
+./libraries/mne/c/mne_mgh_tag.cpp
+LorenzE	
+./libraries/mne/c/mne_named_matrix.h
+LorenzE	
+./libraries/mne/c/mne_named_matrix.cpp
+LorenzE	
+./libraries/mne/c/mne_msh_color_scale_def.cpp
+LorenzE	
+./libraries/mne/c/mne_msh_picked.h
+LorenzE	
+./libraries/mne/c/mne_proj_item.h
+LorenzE	
+./libraries/mne/c/mne_msh_display_surface.cpp
+LorenzE	
+./libraries/mne/c/mne_mgh_tag_group.cpp
+LorenzE	
+./libraries/mne/c/mne_proj_data.cpp
+LorenzE	
+./libraries/mne/c/mne_msh_light.cpp
+LorenzE	
+./libraries/mne/c/mne_raw_data.cpp
+LorenzE	
+./libraries/mne/c/mne_raw_info.h
+LorenzE	
+./libraries/mne/c/mne_deriv_set.h
+LorenzE	
+./libraries/mne/c/mne_surface_old.h
+LorenzE	
+./libraries/mne/c/mne_deriv_set.cpp
+LorenzE	
+./libraries/mne/c/mne_mne_data.h
+LorenzE	
+./libraries/mne/c/mne_surface_or_volume.cpp
+LorenzE	
+./libraries/mne/c/mne_ctf_comp_data.cpp
+LorenzE	
+./libraries/mne/mne_corsourceestimate.h
+LorenzE	
+./libraries/mne/mne_sourceestimate.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_hemisphere.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_surface.h
+LorenzE	
+./libraries/mne/mne_sourcespace.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_bem.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/mne/mne_forwardsolution.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_bem.h
+Gabriel B Motta	
+LorenzE	
+./libraries/mne/mne_epoch_data.h
+LorenzE	
+Lorenz Esch	
+./libraries/mne/mne_hemisphere.cpp
+LorenzE	
+./libraries/fwd/fwd_types.h
+LorenzE	
+./libraries/fwd/fwd_eeg_sphere_model.cpp
+LorenzE	
+./libraries/fwd/fwd_eeg_sphere_layer.h
+LorenzE	
+./libraries/fwd/fwd_comp_data.h
+LorenzE	
+./libraries/fwd/fwd_thread_arg.h
+LorenzE	
+./libraries/fwd/fwd_coil_set.h
+LorenzE	
+./libraries/fwd/fwd_bem_model.cpp
+LorenzE	
+./libraries/fwd/fwd_coil.h
+LorenzE	
+./libraries/fwd/fwd_eeg_sphere_model_set.h
+LorenzE	
+./libraries/fwd/fwd_eeg_sphere_layer.cpp
+LorenzE	
+./libraries/fwd/fwd_coil_set.cpp
+LorenzE	
+./libraries/fwd/fwd_comp_data.cpp
+LorenzE	
+./libraries/fwd/fwd_thread_arg.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/fwd/fwd_global.h
+LorenzE	
+./libraries/fwd/fwd_bem_solution.h
+LorenzE	
+./libraries/fwd/computeFwd/compute_fwd.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/fwd/computeFwd/compute_fwd_settings.cpp
+LorenzE	
+./libraries/fwd/computeFwd/compute_fwd_settings.h
+LorenzE	
+./libraries/fwd/computeFwd/compute_fwd.h
+LorenzE	
+./libraries/fwd/fwd_bem_solution.cpp
+LorenzE	
+./libraries/fwd/fwd.pro
+LorenzE	
+Lorenz Esch	
+./libraries/fwd/fwd_eeg_sphere_model.h
+LorenzE	
+./libraries/fwd/fwd_bem_model.h
+LorenzE	
+./libraries/fwd/fwd_coil.cpp
+LorenzE	
+./libraries/fwd/fwd_eeg_sphere_model_set.cpp
+LorenzE	
+./libraries/fiff/fiff_raw_data.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_tag.h
+LorenzE	
+./libraries/fiff/fiff_info_base.h
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_tag.cpp
+LorenzE	
+./libraries/fiff/fiff_coord_trans.cpp
+LorenzE	
+./libraries/fiff/fiff_info_base.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_cov.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_info.cpp
+LorenzE	
+./libraries/fiff/fiff_types.h
+LorenzE	
+./libraries/fiff/fiff.cpp
+LorenzE	
+./libraries/fiff/fiff_ch_info.cpp
+LorenzE	
+./libraries/fiff/fiff_evoked.h
+LorenzE	
+./libraries/fiff/fiff_raw_dir.cpp
+LorenzE	
+./libraries/fiff/fiff_id.cpp
+LorenzE	
+./libraries/fiff/fiff.pro
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_named_matrix.cpp
+LorenzE	
+./libraries/fiff/fiff_dir_entry.cpp
+LorenzE	
+./libraries/fiff/fiff_stream.h
+LorenzE	
+./libraries/fiff/fiff_io.h
+LorenzE	
+./libraries/fiff/fiff_raw_data.h
+LorenzE	
+./libraries/fiff/fiff_global.h
+LorenzE	
+./libraries/fiff/fiff_info.h
+LorenzE	
+./libraries/fiff/fiff_id.h
+LorenzE	
+./libraries/fiff/fiff_evoked_set.h
+LorenzE	
+./libraries/fiff/fiff_dig_point_set.cpp
+LorenzE	
+./libraries/fiff/fiff_ch_info.h
+LorenzE	
+./libraries/fiff/fiff_stream.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/fiff/fiff_io.cpp
+LorenzE	
+./libraries/fiff/fiff_evoked_set.cpp
+LorenzE	
+./libraries/fiff/fiff.h
+LorenzE	
+./libraries/fiff/fiff_named_matrix.h
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_proj.h
+LorenzE	
+./libraries/fiff/fiff_dir_entry.h
+LorenzE	
+./libraries/fiff/fiff_dir_node.h
+LorenzE	
+./libraries/fiff/fiff_ctf_comp.cpp
+LorenzE	
+./libraries/fiff/fiff_ch_pos.h
+LorenzE	
+./libraries/fiff/fiff_dir_node.cpp
+LorenzE	
+./libraries/fiff/fiff_explain.h
+LorenzE	
+./libraries/fiff/fiff_cov.h
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/c/fiff_coord_trans_set.h
+LorenzE	
+./libraries/fiff/c/fiff_coord_trans_old.h
+LorenzE	
+./libraries/fiff/c/fiff_digitizer_data.cpp
+LorenzE	
+./libraries/fiff/c/fiff_sparse_matrix.cpp
+LorenzE	
+./libraries/fiff/c/fiff_coord_trans_old.cpp
+LorenzE	
+./libraries/fiff/c/fiff_coord_trans_set.cpp
+LorenzE	
+./libraries/fiff/c/fiff_sparse_matrix.h
+LorenzE	
+./libraries/fiff/c/fiff_types_mne-c.h
+LorenzE	
+./libraries/fiff/c/fiff_digitizer_data.h
+LorenzE	
+./libraries/fiff/fiff_constants.h
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_dig_point.cpp
+LorenzE	
+./libraries/fiff/fiff_ctf_comp.h
+LorenzE	
+./libraries/fiff/fiff_dig_point.h
+LorenzE	
+./libraries/fiff/fiff_file.h
+LorenzE	
+./libraries/fiff/fiff_ch_pos.cpp
+LorenzE	
+./libraries/fiff/fiff_evoked.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_proj.cpp
+LorenzE	
+./libraries/fiff/fiff_coord_trans.h
+LorenzE	
+Lorenz Esch	
+./libraries/fiff/fiff_raw_dir.h
+LorenzE	
+./libraries/fiff/fiff_dig_point_set.h
+LorenzE	
+./libraries/disp/disp.pro
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/filtersettingsview.h
+LorenzE	
+./libraries/disp/viewers/fiffrawviewsettings.cpp
+Lorenz Esch	
+./libraries/disp/viewers/connectivitysettingsview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/spectrumsettingsview.h
+LorenzE	
+./libraries/disp/viewers/compensatorview.cpp
+LorenzE	
+./libraries/disp/viewers/spectrumview.h
+LorenzE	
+./libraries/disp/viewers/averagingsettingsview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/control3dview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/spharasettingsview.cpp
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/edge.cpp
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/node.h
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/view.h
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/controls.h
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/node.cpp
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/network.cpp
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/deepviewer.h
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/deepviewer.cpp
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/network.h
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/controls.cpp
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/view.cpp
+LorenzE	
+./libraries/disp/viewers/deepmodelviewer/edge.h
+LorenzE	
+./libraries/disp/viewers/tfsettingsview.cpp
+Lorenz Esch	
+./libraries/disp/viewers/spharasettingsview.h
+LorenzE	
+./libraries/disp/viewers/filterdesignview.h
+LorenzE	
+./libraries/disp/viewers/projectorsview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/averagelayoutview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/butterflyview.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/compensatorview.h
+LorenzE	
+./libraries/disp/viewers/filtersettingsview.cpp
+LorenzE	
+./libraries/disp/viewers/projectsettingsview.cpp
+LorenzE	
+./libraries/disp/viewers/connectivitysettingsview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/triggerdetectionview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/projectorsview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/scalingview.h
+LorenzE	
+./libraries/disp/viewers/averagelayoutview.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/triggerdetectionview.h
+LorenzE	
+./libraries/disp/viewers/spectrumview.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/disp/viewers/minimumnormsettingsview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/scalingview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/modalityselectionview.h
+LorenzE	
+./libraries/disp/viewers/butterflyview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/projectsettingsview.h
+LorenzE	
+./libraries/disp/viewers/tfsettingsview.h
+Lorenz Esch	
+./libraries/disp/viewers/filterdesignview.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/disp/viewers/averageselectionview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/rtfiffrawview.cpp
+Gabriel B Motta	
+Lorenz Esch	
+./libraries/disp/viewers/spectrumsettingsview.cpp
+LorenzE	
+./libraries/disp/viewers/quickcontrolview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/minimumnormsettingsview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/averagingsettingsview.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/channelselectionview.h
+LorenzE	
+./libraries/disp/viewers/rtfiffrawview.h
+Lorenz Esch	
+./libraries/disp/viewers/helpers/averagescene.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/draggableframelesswidget.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/evokedsetmodel.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/averagesceneitem.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/filterplotscene.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/layoutscene.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/mneoperator.h
+LorenzE	
+./libraries/disp/viewers/helpers/rtfiffrawviewmodel.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/channelinfomodel.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/frequencyspectrumdelegate.h
+LorenzE	
+./libraries/disp/viewers/helpers/averagesceneitem.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/rtfiffrawviewmodel.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/selectionscene.h
+LorenzE	
+./libraries/disp/viewers/helpers/rtfiffrawviewdelegate.cpp
+Lorenz Esch	
+./libraries/disp/viewers/helpers/selectionsceneitem.h
+LorenzE	
+./libraries/disp/viewers/helpers/filterplotscene.h
+LorenzE	
+./libraries/disp/viewers/helpers/rtfiffrawviewdelegate.h
+Lorenz Esch	
+./libraries/disp/viewers/helpers/mneoperator.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/frequencyspectrumdelegate.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/layoutscene.h
+LorenzE	
+./libraries/disp/viewers/helpers/selectionscene.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/evokedsetmodel.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/frequencyspectrummodel.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/draggableframelesswidget.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/helpers/frequencyspectrummodel.h
+LorenzE	
+./libraries/disp/viewers/helpers/channelinfomodel.h
+LorenzE	
+./libraries/disp/viewers/helpers/selectionsceneitem.cpp
+LorenzE	
+./libraries/disp/viewers/helpers/averagescene.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/averageselectionview.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/artifactsettingsview.h
+LorenzE	
+./libraries/disp/viewers/channelselectionview.cpp
+Gabriel B Motta	
+LorenzE	
+./libraries/disp/viewers/artifactsettingsview.cpp
+LorenzE	
+./libraries/disp/viewers/modalityselectionview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/fiffrawviewsettings.h
+Lorenz Esch	
+./libraries/disp/viewers/quickcontrolview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/viewers/control3dview.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/disp_global.h
+LorenzE	
+./libraries/disp/plots/imagesc.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/plots/bar.cpp
+LorenzE	
+./libraries/disp/plots/plot.cpp
+LorenzE	
+./libraries/disp/plots/graph.h
+Gabriel B Motta	
+LorenzE	
+./libraries/disp/plots/lineplot.cpp
+LorenzE	
+./libraries/disp/plots/spline.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/plots/plot.h
+LorenzE	
+./libraries/disp/plots/graph.cpp
+LorenzE	
+./libraries/disp/plots/tfplot.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/plots/bar.h
+LorenzE	
+./libraries/disp/plots/lineplot.h
+LorenzE	
+./libraries/disp/plots/tfplot.h
+LorenzE	
+./libraries/disp/plots/spline.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/plots/helpers/colormap.h
+LorenzE	
+Lorenz Esch	
+./libraries/disp/plots/helpers/colormap.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/disp/plots/imagesc.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/fs/surfaceset.cpp
+LorenzE	
+./libraries/fs/annotation.h
+LorenzE	
+Lorenz Esch	
+./libraries/fs/annotationset.h
+LorenzE	
+Lorenz Esch	
+./libraries/fs/fs_global.h
+LorenzE	
+./libraries/fs/annotationset.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/fs/colortable.cpp
+LorenzE	
+./libraries/fs/colortable.h
+LorenzE	
+./libraries/fs/surfaceset.h
+LorenzE	
+./libraries/fs/surface.h
+LorenzE	
+./libraries/fs/label.cpp
+LorenzE	
+./libraries/fs/fs.pro
+LorenzE	
+Lorenz Esch	
+./libraries/fs/annotation.cpp
+LorenzE	
+Lorenz Esch	
+./libraries/fs/label.h
+LorenzE	
+./libraries/fs/surface.cpp
+LorenzE	
+./libraries/deep/deep.h
+LorenzE	
+./libraries/deep/deepeval.h
+LorenzE	
+./libraries/deep/deep_global.h
+LorenzE	
+./libraries/deep/deepmodelcreator.h
+LorenzE	
+./libraries/deep/deepmodelcreator.cpp
+LorenzE	
+./libraries/deep/deep.cpp
+LorenzE	
+./libraries/deep/deepeval.cpp
+LorenzE	
+./libraries/deep/deep.pro
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_bem/ex_read_bem.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_bem/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_make_layout/ex_make_layout.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_make_layout/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_connectivity_performance/ex_connectivity_performance.pro
+LorenzE	
+Lorenz Esch	
+./examples/ex_connectivity_performance/main.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./examples/ex_evoked_grad_amp/ex_evoked_grad_amp.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_evoked_grad_amp/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_inverse_rap_music/ex_inverse_rap_music.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_inverse_rap_music/main.cpp
+Christoph Dinh	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_roi_clustered_inverse_pwl_rap_music/ex_roi_clustered_inverse_pwl_rap_music.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_roi_clustered_inverse_pwl_rap_music/main.cpp
+Christoph Dinh	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_histogram/ex_histogram.pro
+buildqa	
+Christoph Dinh	
+Erik Hornberger	
+LorenzE	
+Lorenz Esch	
+./examples/ex_histogram/main.cpp
+Christoph Dinh	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_spectral/ex_spectral.pro
+joewalter	
+LorenzE	
+Lorenz Esch	
+./examples/ex_spectral/main.cpp
+joewalter	
+LorenzE	
+./examples/ex_cancel_noise/ex_cancel_noise.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_cancel_noise/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_read_epochs/ex_read_epochs.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_epochs/main.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_fiff_io/ex_fiff_io.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_fiff_io/main.cpp
+Christoph Dinh	
+Gabriel B Motta	
+Lorenz Esch	
+./examples/ex_read_evoked/ex_read_evoked.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_evoked/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_inverse_mne_raw/ex_inverse_mne_raw.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_inverse_mne_raw/main.cpp
+Christoph Dinh	
+Gabriel B Motta	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_filtering/ex_filtering.pro
+doerfelruben@aol.com	
+Lorenz Esch	
+Ruben Doerfel	
+./examples/ex_filtering/main.cpp
+doerfelruben@aol.com	
+Lorenz Esch	
+Ruben Doerfel	
+./examples/ex_connectivity_comparison/ex_connectivity_comparison.pro
+LorenzE	
+Lorenz Esch	
+./examples/ex_connectivity_comparison/main.cpp
+Gabriel B Motta	
+juangpc	
+LorenzE	
+Lorenz Esch	
+./examples/ex_deep/ex_deep.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_deep/main.cpp
+Christoph Dinh	
+LorenzE	
+./examples/ex_make_inverse_operator/ex_make_inverse_operator.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_make_inverse_operator/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_tf_plot/ex_tf_plot.pro
+LorenzE	
+Lorenz Esch	
+./examples/ex_tf_plot/main.cpp
+Gabriel B Motta	
+LorenzE	
+Lorenz Esch	
+./examples/ex_disp_3D/ex_disp_3D.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_disp_3D/main.cpp
+1Dice	
+1DIce	
+Christoph Dinh	
+Felix	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_st_clustered_inverse_pwl_rap_music/ex_st_clustered_inverse_pwl_rap_music.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_st_clustered_inverse_pwl_rap_music/main.cpp
+Christoph Dinh	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_inverse_mne/ex_inverse_mne.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_inverse_mne/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_clustered_inverse_rap_music_raw/ex_clustered_inverse_rap_music_raw.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_clustered_inverse_rap_music_raw/main.cpp
+Christoph Dinh	
+Gabriel B Motta	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_fs_surface/ex_fs_surface.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_fs_surface/main.cpp
+Christoph Dinh	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_write_raw/ex_read_write_raw.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_write_raw/main.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_raw/ex_read_raw.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_raw/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_find_evoked/ex_find_evoked.pro
+buildqa	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_find_evoked/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_deep_model_viewer/ex_deep_model_viewer.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_deep_model_viewer/main.cpp
+Christoph Dinh	
+./examples/ex_read_fwd_disp_3D/ex_read_fwd_disp_3D.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_read_fwd_disp_3D/main.cpp
+Christoph Dinh	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/examples.pro
+1DIce	
+chdinh	
+Christoph Dinh	
+Felix	
+Florian Schlembach	
+GBeret	
+Jana Kiesel	
+joewalter	
+LorenzE	
+Lorenz Esch	
+rickytjen	
+Ruben Doerfel	
+./examples/ex_read_fwd/ex_read_fwd.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_read_fwd/main.cpp
+Christoph Dinh	
+Lorenz Esch	
+./examples/ex_inverse_pwl_rap_music/ex_inverse_pwl_rap_music.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_inverse_pwl_rap_music/main.cpp
+Christoph Dinh	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_clustered_inverse_pwl_rap_music_raw/ex_clustered_inverse_pwl_rap_music_raw.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_clustered_inverse_pwl_rap_music_raw/main.cpp
+Christoph Dinh	
+Gabriel B Motta	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_interpolation/ex_interpolation.pro
+1DIce	
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_interpolation/main.cpp
+1DIce	
+Blerta Hamzallari	
+Felix	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_disp/ex_disp.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_disp/main.cpp
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_connectivity/ex_connectivity.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_connectivity/connectivitysettingsmanager.h
+LorenzE	
+Lorenz Esch	
+./examples/ex_connectivity/main.cpp
+Christoph Dinh	
+Gabriel B Motta	
+joewalter	
+LorenzE	
+Lorenz Esch	
+mfarisyahya	
+./examples/ex_clustered_inverse_mne_raw/ex_clustered_inverse_mne_raw.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_clustered_inverse_mne_raw/main.cpp
+Christoph Dinh	
+Gabriel B Motta	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
+./examples/ex_deep_eval/ex_deep_eval.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+./examples/ex_deep_eval/main.cpp
+Christoph Dinh	
+LorenzE	
+./examples/ex_clustered_inverse_mne/ex_clustered_inverse_mne.pro
+Christoph Dinh	
+LorenzE	
+Lorenz Esch	
+sheinke	
+./examples/ex_clustered_inverse_mne/main.cpp
+Christoph Dinh	
+juangpc	
+lorenze	
+LorenzE	
+Lorenz Esch	
