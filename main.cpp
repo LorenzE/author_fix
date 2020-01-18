@@ -8,7 +8,11 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    QFile file("../author_fix/authorsLog.txt");
+    QString pathRepo("C:/Git/test");
+    QString pathAuthroLog("../author_fix/authorsLog.txt");
+
+    // Parse and prepare author information
+    QFile file(pathAuthroLog);
     if(!file.open(QIODevice::ReadOnly)) {
         QMessageBox::information(0, "error", file.errorString());
     }
@@ -21,10 +25,10 @@ int main(int argc, char *argv[])
 
     while(!in.atEnd()) {
         QString line = in.readLine();
-        line.replace("\t", "");
+        line.replace("\t", QString(""));
 
         if(line.at(0) == ".") {
-            currentPath = line;
+            currentPath = pathRepo + line.replace("./", "/");
         } else {
             results[currentPath].append(line);
             allAuthors.append(line);
@@ -35,49 +39,90 @@ int main(int argc, char *argv[])
 
     allAuthors.removeDuplicates();
 
-    qDebug() << results;
+    //qDebug() << results;
     qDebug() << "\n \n" << allAuthors;
 
     QMap<QString,QPair<QString,QString>> authorInfos;
 
     authorInfos["Christoph Dinh"] = qMakePair(QString("Christoph Dinh"), QString("christoph.dinh@live.de"));
-    authorInfos["chdinh"] = qMakePair("Christoph Dinh", QString("christoph.dinh@live.de"));
-    authorInfos["LorenzE"] = qMakePair("Lorenz Esch", "lesch@mgh.harvard.edu");
-    authorInfos["Lorenz Esch"] = qMakePair("Lorenz Esch", "lesch@mgh.harvard.edu");
-    authorInfos["lorenze"] = qMakePair("Lorenz Esch", "lesch@mgh.harvard.edu");
-    authorInfos["buildqa"] = qMakePair("Robert Dicamillo", "rd521@nmr.mgh.harvard.edu");
-    authorInfos["Gabriel B Motta"] = qMakePair("Gabriel B Motta", "gabrielbenmotta@gmail.com");
-    authorInfos["GBeret"] = qMakePair("Daniel Knobl", "Daniel.Knobl@tu-ilmenau.de");
-    authorInfos["LostSign"] = qMakePair("Martin Henfling", "Martin.Henfling@tu-ilmenau.de");
-    authorInfos["Felix Arndt"] = qMakePair("Felix Arndt", "Felix.Arndt@tu-ilmenau.de");
-    authorInfos["Limin Sun"] = qMakePair("Limin Sun", "limin.sun@childrens.harvard.edu");
-    authorInfos["liminsun"] = qMakePair("Limin Sun", "limin.sun@childrens.harvard.edu");
-    authorInfos["sheinke"] = qMakePair("Simon Heinke", "Simon.Heinke@tu-ilmenau.de");
-    authorInfos["Viktor"] = qMakePair("Viktor Klueber", "Viktor.Klueber@tu-ilmenau.de");
-    authorInfos["ViktorKL"] = qMakePair("Viktor Klueber", "Viktor.Klueber@tu-ilmenau.de");
-    authorInfos["louis"] = qMakePair("Louis Eichhorst", "Louis.Eichhorst@tu-ilmenau.de");
-    authorInfos["louiseichhorst"] = qMakePair("Louis Eichhorst", "Louis.Eichhorst@tu-ilmenau.de");
-    authorInfos["Louis Eichhorst"] = qMakePair("Louis Eichhorst", "Louis.Eichhorst@tu-ilmenau.de");
-    authorInfos["Erik Hornberger"] = qMakePair("Erik Hornberger", "erik.hornberger@shi-g.com");
-    authorInfos["juangpc"] = qMakePair("Juan Garcia-Prieto", "juangpc@gmail.com");
-    authorInfos["Chiran"] = qMakePair("Chiran Doshi", "Chiran.Doshi@childrens.harvard.edu");
-    authorInfos["Florian Schlembach"] = qMakePair("Florian Schlembach", "");
-    authorInfos["Seok Lew"] = qMakePair("Seok Lew", "Seok.Lew@childrens.harvard.edu");
-    authorInfos["Tim Kunze"] = qMakePair("Tim Kunze", "Tim.Kunze@tu-ilmenau.de");
-    authorInfos["doerfelruben@aol.com"] = qMakePair("Ruben Doerfel", "Ruben.Doerfel@tu-ilmenau.de");
-    authorInfos["Ruben Doerfel"] = qMakePair("Ruben Doerfel", "Ruben.Doerfel@tu-ilmenau.de");
-    authorInfos["joewalter"] = qMakePair("Daniel Strohmeier", "Daniel.Strohmeier@tu-ilmenau.de");
-    authorInfos["rickytjen"] = qMakePair("Ricky Tjen", "ricky270@student.sgu.ac.id");
-    authorInfos["SugandhaSachdeva"] = qMakePair("Sugandha Sachdeva", "sugandha.sachdeva@tu-ilmenau.de");
-    authorInfos["MKlamke"] = qMakePair("Marco Klamke", "marco.klamke@tu-ilmenau.de");
-    authorInfos["PetrosSimidyan"] = qMakePair("Petros Simidyan", "petros.simidyan@tu-ilmenau.de");
-    authorInfos["Petros Simidyan"] = qMakePair("Petros Simidyan", "petros.simidyan@tu-ilmenau.de");
-    authorInfos["Blerta Hamzallari"] = qMakePair("Blerta Hamzallari", "blerta.hamzallari@tu-ilmenau.de");
-    authorInfos["1Dice"] = qMakePair("Lars Debor", "Lars.Debor@tu-ilmenau.de");
-    authorInfos["1DIce"] = qMakePair("Lars Debor", "Lars.Debor@tu-ilmenau.de");
-    authorInfos["mfarisyahya"] = qMakePair("Faris Yahya", "mfarisyahya@gmail.com");
-    authorInfos["Felix Griesau"] = qMakePair("Felix Griesau", "Felix.Griesau@tu-ilmenau.de");
-    authorInfos["Jana Kiesel"] = qMakePair("Jana Kiesel", "Jana.Kiesel@tu-ilmenau.de");
+    authorInfos["chdinh"] = qMakePair(QString("Christoph Dinh"), QString("christoph.dinh@live.de"));
+    authorInfos["lorenz_e"] = qMakePair(QString("Lorenz Esch"), QString("lesch@mgh.harvard.edu"));
+    authorInfos["Lorenz_e"] = qMakePair(QString("Lorenz Esch"), QString("lesch@mgh.harvard.edu"));
+    authorInfos["LorenzE"] = qMakePair(QString("Lorenz Esch"), QString("lesch@mgh.harvard.edu"));
+    authorInfos["Lorenz Esch"] = qMakePair(QString("Lorenz Esch"), QString("lesch@mgh.harvard.edu"));
+    authorInfos["lorenze"] = qMakePair(QString("Lorenz Esch"), QString("lesch@mgh.harvard.edu"));
+    authorInfos["buildqa"] = qMakePair(QString("Robert Dicamillo"), QString("rd521@nmr.mgh.harvard.edu"));
+    authorInfos["Gabriel B Motta"] = qMakePair(QString("Gabriel B Motta"), QString("gabrielbenmotta@gmail.com"));
+    authorInfos["GBeret"] = qMakePair(QString("Daniel Knobl"), QString("Daniel.Knobl@tu-ilmenau.de"));
+    authorInfos["LostSign"] = qMakePair(QString("Martin Henfling"), QString("Martin.Henfling@tu-ilmenau.de"));
+    authorInfos["Felix Arndt"] = qMakePair(QString("Felix Arndt"), QString("Felix.Arndt@tu-ilmenau.de"));
+    authorInfos["farndt"] = qMakePair(QString("Felix Arndt"), QString("Felix.Arndt@tu-ilmenau.de"));
+    authorInfos["Limin Sun"] = qMakePair(QString("Limin Sun"), QString("limin.sun@childrens.harvard.edu"));
+    authorInfos["liminsun"] = qMakePair(QString("Limin Sun"), QString("limin.sun@childrens.harvard.edu"));
+    authorInfos["sheinke"] = qMakePair(QString("Simon Heinke"), QString("Simon.Heinke@tu-ilmenau.de"));
+    authorInfos["Viktor"] = qMakePair(QString("Viktor Klueber"), QString("Viktor.Klueber@tu-ilmenau.de"));
+    authorInfos["ViktorKL"] = qMakePair(QString("Viktor Klueber"), QString("Viktor.Klueber@tu-ilmenau.de"));
+    authorInfos["louis"] = qMakePair(QString("Louis Eichhorst"), QString("Louis.Eichhorst@tu-ilmenau.de"));
+    authorInfos["louiseichhorst"] = qMakePair(QString("Louis Eichhorst"), QString("Louis.Eichhorst@tu-ilmenau.de"));
+    authorInfos["Louis Eichhorst"] = qMakePair(QString("Louis Eichhorst"), QString("Louis.Eichhorst@tu-ilmenau.de"));
+    authorInfos["Erik Hornberger"] = qMakePair(QString("Erik Hornberger"), QString("erik.hornberger@shi-g.com"));
+    authorInfos["juangpc"] = qMakePair(QString("Juan Garcia-Prieto"), QString("juangpc@gmail.com"));
+    authorInfos["cdoshi"] = qMakePair(QString("Chiran Doschi"), QString("Chiran.Doschi@childrens.harvard.edu"));
+    authorInfos["Chiran"] = qMakePair(QString("Chiran Doschi"), QString("Chiran.Doschi@childrens.harvard.edu"));
+    authorInfos["Florian Schlembach"] = qMakePair(QString("Florian Schlembach"), QString("Florian.Schlembach@tu-ilmenau.de"));
+    authorInfos["Seok Lew"] = qMakePair(QString("Seok Lew"), QString("Seok.Lew@childrens.harvard.edu"));
+    authorInfos["Tim Kunze"] = qMakePair(QString("Tim Kunze"), QString("Tim.Kunze@tu-ilmenau.de"));
+    authorInfos["doerfelruben@aol.com"] = qMakePair(QString("Ruben Doerfel"), QString("Ruben.Doerfel@tu-ilmenau.de"));
+    authorInfos["Ruben Doerfel"] = qMakePair(QString("Ruben Doerfel"), QString("Ruben.Doerfel@tu-ilmenau.de"));
+    authorInfos["joewalter"] = qMakePair(QString("Daniel Strohmeier"), QString("Daniel.Strohmeier@tu-ilmenau.de"));
+    authorInfos["rickytjen"] = qMakePair(QString("Ricky Tjen"), QString("ricky270@student.sgu.ac.id"));
+    authorInfos["Ricky"] = qMakePair(QString("Ricky Tjen"), QString("ricky270@student.sgu.ac.id"));
+    authorInfos["SugandhaSachdeva"] = qMakePair(QString("Sugandha Sachdeva"), QString("sugandha.sachdeva@tu-ilmenau.de"));
+    authorInfos["MKlamke"] = qMakePair(QString("Marco Klamke"), QString("marco.klamke@tu-ilmenau.de"));
+    authorInfos["PetrosSimidyan"] = qMakePair(QString("Petros Simidyan"), QString("petros.simidyan@tu-ilmenau.de"));
+    authorInfos["Petros Simidyan"] = qMakePair(QString("Petros Simidyan"), QString("petros.simidyan@tu-ilmenau.de"));
+    authorInfos["Blerta Hamzallari"] = qMakePair(QString("Blerta Hamzallari"), QString("blerta.hamzallari@tu-ilmenau.de"));
+    authorInfos["1Dice"] = qMakePair(QString("Lars Debor"), QString("Lars.Debor@tu-ilmenau.de"));
+    authorInfos["1DIce"] = qMakePair(QString("Lars Debor"), QString("Lars.Debor@tu-ilmenau.de"));
+    authorInfos["mfarisyahya"] = qMakePair(QString("Faris Yahya"), QString("mfarisyahya@gmail.com"));
+    authorInfos["Felix Griesau"] = qMakePair(QString("Felix Griesau"), QString("Felix.Griesau@tu-ilmenau.de"));
+    authorInfos["Jana Kiesel"] = qMakePair(QString("Jana Kiesel"), QString("Jana.Kiesel@tu-ilmenau.de"));
+
+    authorInfos["Christof Pieloth"] = qMakePair(QString("Christof Pieloth"), QString(""));
+    authorInfos["cpieloth"] = qMakePair(QString("Christof Pieloth"), QString(""));
+    authorInfos["Benjamin Kay"] = qMakePair(QString("Benjamin Kay"), QString(""));
+    authorInfos["Eric Larson"] = qMakePair(QString("Eric Larson"), QString(""));
+    authorInfos["fjpolo"] = qMakePair(QString("Franco Polo"), QString(""));
+    authorInfos["Martin Luessi"] = qMakePair(QString("Martin Luessi"), QString(""));
+    authorInfos["Mainak Jas"] = qMakePair(QString("Mainak Jas"), QString(""));
+
+//    // Process cpp h and pro files > Update author information only if license is present > do not delete present authors
+//    QMapIterator<QString,QStringList> i(results);
+//    while (i.hasNext()) {
+//        i.next();
+//        QString pathFile = i.key();
+//        QStringList authorList = i.value();
+
+//        qDebug() << "Fixing" << pathFile << "with authors" << authorList;
+
+//        // Open file
+//        QFile fileFix(pathFile);
+//        if(fileFix.open(QIODevice::ReadOnly)) {
+//            // Check if @authors exists
+//            QTextStream inFix(&fileFix);
+//            QString all = inFix.readAll();
+
+//            if(all.contains("* @author")) {
+//                qDebug() << "Found author keyword in" << pathFile;
+
+//                // Check if Matti as author exisits
+//            } else {
+//                qDebug() << "Did not find author keyword in" << pathFile;
+//            }
+//        } else {
+//            qDebug() << "Could not open file" << pathFile;
+//        }
+//    }
 
     return a.exec();
 }

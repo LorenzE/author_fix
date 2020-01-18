@@ -3,10 +3,10 @@
 authorsLog.txt was created via:
 
     cd mne-cpp
-    find . -path ./include -prune -o -type f \( -iname \*.h -o -iname \*.cpp -o -iname \*.pro \) -exec echo {} \; -exec sh -c "git log --pretty=format:'%an%x09' {} | sort | uniq " \; > authorsLog.txt
+    find . -path ./include -prune -o -type f \( -iname \*.h -o -iname \*.cpp -o -iname \*.pro \) -exec echo {} \; -exec sh -c "git log --follow --pretty=format:'%an%x09' {} | sort | uniq " \; > authorsLog.txt
     
 The commane above:
 
 - Finds all files with ending .h .cpp and .pro in . folder, excluding the ./include folder
-- For all found files executes git blame and extracts unique authors from the output. Also, adds file name after each git blame result.
+- For all found files executes git log and extracts unique authors from the output. Please note that the complete history of the file will be processed, including renamings etc. Also, adds file name after each git log result.
 - Writes result to file
