@@ -87,6 +87,7 @@ int main(int argc, char *argv[])
     authorInfos["mfarisyahya"] = qMakePair(QString("Faris Yahya"), QString("mfarisyahya@gmail.com"));
     authorInfos["Felix Griesau"] = qMakePair(QString("Felix Griesau"), QString("Felix.Griesau@tu-ilmenau.de"));
     authorInfos["Jana Kiesel"] = qMakePair(QString("Jana Kiesel"), QString("Jana.Kiesel@tu-ilmenau.de"));
+    authorInfos["Matti Hamalainen"] = qMakePair(QString("Matti Hamalainen"), QString("msh@nmr.mgh.harvard.edu"));
 
     authorInfos["Christof Pieloth"] = qMakePair(QString("Christof Pieloth"), QString(""));
     authorInfos["cpieloth"] = qMakePair(QString("Christof Pieloth"), QString(""));
@@ -96,33 +97,65 @@ int main(int argc, char *argv[])
     authorInfos["Martin Luessi"] = qMakePair(QString("Martin Luessi"), QString(""));
     authorInfos["Mainak Jas"] = qMakePair(QString("Mainak Jas"), QString(""));
 
-//    // Process cpp h and pro files > Update author information only if license is present > do not delete present authors
-//    QMapIterator<QString,QStringList> i(results);
-//    while (i.hasNext()) {
-//        i.next();
-//        QString pathFile = i.key();
-//        QStringList authorList = i.value();
+    // Process cpp h and pro files > Update author information only if license is present > do not delete present authors
+    QMapIterator<QString,QStringList> i(results);
+    while (i.hasNext()) {
+        i.next();
+        QString pathFile = i.key();
+        QStringList authorList = i.value();
 
-//        qDebug() << "Fixing" << pathFile << "with authors" << authorList;
+        qDebug() << "Fixing" << pathFile << "with authors" << authorList;
 
-//        // Open file
-//        QFile fileFix(pathFile);
-//        if(fileFix.open(QIODevice::ReadOnly)) {
-//            // Check if @authors exists
-//            QTextStream inFix(&fileFix);
-//            QString all = inFix.readAll();
+        // Open file
+        QFile fileFix(pathFile);
+        if(fileFix.open(QIODevice::ReadWrite)) {
+            // Check if @authors exists
+            QTextStream inFix(&fileFix);
+            QString all = inFix.readAll();
 
-//            if(all.contains("* @author")) {
+            //qDebug() << all;
+
+            int indexAuthor = all.indexOf("* @author");
+            int indexVersion = all.indexOf("* @version");
+            if(indexAuthor != -1) {
 //                qDebug() << "Found author keyword in" << pathFile;
+//                qDebug() << "indexAuthor" << indexAuthor;
+//                qDebug() << "indexVersion" << indexVersion;
 
-//                // Check if Matti as author exisits
-//            } else {
-//                qDebug() << "Did not find author keyword in" << pathFile;
-//            }
-//        } else {
-//            qDebug() << "Could not open file" << pathFile;
-//        }
-//    }
+                // Check if Matti as author exisits
+                if(all.contains("Hamalainen")) {
+                    authorList << "Matti Hamalainen";
+                }
+
+                // Replace authors with correct ones from authorLog file
+                QString placeholder("*           ");
+                QString replaceString;
+
+                for(int i = 0; i < authorList.size(); ++i) {
+                    QString newAuthor = QString("%1 <%2>\r\n").arg(authorInfos[authorList.at(i)].first).arg(authorInfos[authorList.at(i)].second);
+
+                    if(i == 0) {
+                        replaceString.append("* @author   ");
+                        replaceString.append(newAuthor);
+                    } else if (!replaceString.contains(newAuthor)) {
+                        replaceString.append(placeholder);
+                        replaceString.append(newAuthor);
+                    }
+                }
+
+                // Fix licencing
+                all.replace(indexAuthor, indexVersion-indexAuthor, replaceString);
+                fileFix.seek(0); // go to the beginning of the file
+                fileFix.write(all.toUtf8()); // write the new text back to the file
+
+                fileFix.close(); // close the file handle.
+            } else {
+                qDebug() << "Did not find author keyword in" << pathFile;
+            }
+        } else {
+            qDebug() << "Could not open file" << pathFile;
+        }
+    }
 
     return a.exec();
 }
