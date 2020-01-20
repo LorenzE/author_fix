@@ -100,6 +100,7 @@ int main(int argc, char *argv[])
 
     // Process cpp h and pro files > Update author information only if license is present > do not delete present authors
     QMapIterator<QString,QStringList> i(results);
+    int counter = 0;
     while (i.hasNext()) {
         i.next();
         QString pathFile = i.key();
@@ -112,6 +113,21 @@ int main(int argc, char *argv[])
         if(fileFix.open(QIODevice::ReadWrite)) {
             QTextStream inFix(&fileFix);
             QString all = inFix.readAll();
+
+            // Check if file name is consistent
+            inFix.seek(0);
+            QString fileName = pathFile.mid(pathFile.lastIndexOf("/")).remove(0,1);
+            while(!inFix.atEnd()) {
+                QString line = inFix.readLine();
+                if(line.contains("@file")) {
+                    QStringList list = line.split(" ");
+                    if(list.last() != fileName) {
+                        all.replace(QString("@file     %1").arg(list.last()), QString("@file     %1").arg(fileName));
+                        counter++;
+                    }
+                    break;
+                }
+            }
 
             // Check if Matti as author exisits
             if(all.contains("Hamalainen") &&
@@ -161,7 +177,9 @@ int main(int argc, char *argv[])
                 replaceString.prepend(QString("%1 @author   ").arg(keywordComment));
                 replaceString.append("\r\n");
 
-                all.replace(indexAuthor, indexVersion-indexAuthor, replaceString);
+                QString alltemp = all;
+                all.remove(indexAuthor, indexVersion-indexAuthor);
+                all.insert(indexAuthor, replaceString);
             } else {
                 qDebug() << "Did not find author keyword in" << pathFile;
             }
@@ -209,13 +227,16 @@ int main(int argc, char *argv[])
 
             // Write fixed version to file
             fileFix.seek(0); // go to the beginning of the file
-            fileFix.write(all.toUtf8()); // write the new text back to the file
+            fileFix.write(all.toLatin1()); // write the new text back to the file
+            fileFix.resize(fileFix.pos());
 
             fileFix.close(); // close the file handle.
         } else {
             qDebug() << "Could not open file" << pathFile;
         }
     }
+
+    qDebug() << "file names fixed" << counter;
 
     return a.exec();
 }
