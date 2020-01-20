@@ -8,5 +8,5 @@ authorsLog.txt was created via:
 The commane above:
 
 - Finds all files with ending .h .cpp and .pro in . folder, excluding the ./include folder
-- For all found files executes git log and extracts unique authors from the output. Please note that the complete history of the file will be processed, including renamings etc. Also, adds file name after each git log result.
+- For all found files executes git log and extracts unique authors from the output. Please note that the complete history of the file will be processed, including renamings etc. If this is not wanted just remove the --follow flag in the above command. Also, adds file name after each git log result.
 - Writes result to file
