@@ -8,8 +8,8 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    QString pathRepo("C:/Git/mne-cpp");
-    QString pathAuthroLog("../author_fix/authorsLogNoFollow.txt");
+    QString pathRepo("/cluster/fusion/lesch/Git/mne-cpp");
+    QString pathAuthroLog("/cluster/fusion/lesch/Git/mne-cpp/authorsLogNoFollow.txt");
 
     // Parse and prepare author information
     QFile file(pathAuthroLog);
@@ -68,6 +68,7 @@ int main(int argc, char *argv[])
     authorInfos["Louis Eichhorst"] = qMakePair(QString("Louis Eichhorst"), QString("Louis.Eichhorst@tu-ilmenau.de"));
     authorInfos["Erik Hornberger"] = qMakePair(QString("Erik Hornberger"), QString("erik.hornberger@shi-g.com"));
     authorInfos["juangpc"] = qMakePair(QString("Juan Garcia-Prieto"), QString("juangpc@gmail.com"));
+    authorInfos["jgpc"] = qMakePair(QString("Juan Garcia-Prieto"), QString("juangpc@gmail.com"));
     authorInfos["cdoshi"] = qMakePair(QString("Chiran Doschi"), QString("Chiran.Doschi@childrens.harvard.edu"));
     authorInfos["Chiran"] = qMakePair(QString("Chiran Doschi"), QString("Chiran.Doschi@childrens.harvard.edu"));
     authorInfos["Florian Schlembach"] = qMakePair(QString("Florian Schlembach"), QString("Florian.Schlembach@tu-ilmenau.de"));
@@ -97,6 +98,9 @@ int main(int argc, char *argv[])
     authorInfos["Martin Luessi"] = qMakePair(QString("Martin Luessi"), QString("mluessi@nmr.mgh.harvard.edu"));
     authorInfos["Mainak Jas"] = qMakePair(QString("Mainak Jas"), QString("mainakjas@gmail.com"));
     authorInfos["Julius-L"] = qMakePair(QString("Julius Lerm"), QString("julius.lerm@tu-ilmenau.de"));
+    authorInfos["imsorryk"] = qMakePair(QString("Wayne Mead"), QString("wayne.mead@uth.tmc.edu"));
+    authorInfos["Wayne Mead"] = qMakePair(QString("Wayne Mead"), QString("wayne.mead@uth.tmc.edu"));
+    authorInfos["John Mosher"] = qMakePair(QString("John C. Mosher"), QString("John.C.Mosher@uth.tmc.edu"));
 
     // Process cpp h and pro files > Update author information only if license is present > do not delete present authors
     QMapIterator<QString,QStringList> i(results);
@@ -104,135 +108,152 @@ int main(int argc, char *argv[])
     while (i.hasNext()) {
         i.next();
         QString pathFile = i.key();
-        QStringList authorList = i.value();
 
-        qDebug() << "Fixing" << pathFile << "with authors" << authorList;
+        if(pathFile.contains("/mne_anonymize")) {
+            QStringList authorList = i.value();
 
-        // Open file
-        QFile fileFix(pathFile);
-        if(fileFix.open(QIODevice::ReadWrite)) {
-            QTextStream inFix(&fileFix);
-            QString all = inFix.readAll();
+            qDebug() << "Fixing" << pathFile << "with authors" << authorList;
 
-            // Check if file name is consistent
-            inFix.seek(0);
-            QString fileName = pathFile.mid(pathFile.lastIndexOf("/")).remove(0,1);
-            while(!inFix.atEnd()) {
-                QString line = inFix.readLine();
-                if(line.contains("@file")) {
-                    QStringList list = line.split(" ");
-                    if(list.last() != fileName) {
-                        all.replace(QString("@file     %1").arg(list.last()), QString("@file     %1").arg(fileName));
-                        counter++;
+            // Open file
+            QFile fileFix(pathFile);
+            if(fileFix.open(QIODevice::ReadWrite)) {
+                QTextStream inFix(&fileFix);
+                QString all = inFix.readAll();
+
+                // Check if file name is consistent
+                inFix.seek(0);
+                QString fileName = pathFile.mid(pathFile.lastIndexOf("/")).remove(0,1);
+                while(!inFix.atEnd()) {
+                    QString line = inFix.readLine();
+                    if(line.contains("@file")) {
+                        QStringList list = line.split(" ");
+                        if(list.last() != fileName) {
+                            all.replace(QString("@file     %1").arg(list.last()), QString("@file     %1").arg(fileName));
+                            counter++;
+                        }
+                        break;
                     }
-                    break;
-                }
-            }
-
-            // Check if Matti as author exisits
-            if(all.contains("Hamalainen") &&
-               (pathFile.contains("/libraries/fiff")
-               || pathFile.contains("/libraries/mne")
-               || pathFile.contains("/libraries/communication")
-               || pathFile.contains("/libraries/fwd")
-               || pathFile.contains("/libraries/inverse")
-               || pathFile.contains("/libraries/fs")
-               || pathFile.contains("/applications/mne_rt_server"))) {
-                authorList << "Matti Hamalainen";
-            }
-
-            // Check if Christoph as author exisits
-            if(all.contains("Dinh")) {
-                authorList << "Christoph Dinh";
-            }
-
-            // Check if Christoph as author exisits
-            if(all.contains("Esch")) {
-                authorList << "Lorenz Esch";
-            }
-
-            QString keywordComment("*");
-            if(pathFile.contains(".pro")) {
-                keywordComment = "#";
-            }
-
-            // Fix authors
-            int indexAuthor = all.indexOf(QString("%1 @author").arg(keywordComment));
-            int indexVersion = all.indexOf(QString("%1 @version").arg(keywordComment));
-            if(indexAuthor != -1) {
-                QString placeholder(QString("%1           ").arg(keywordComment));
-                QString replaceString;
-                QStringList authorsEmailsTemp;
-
-                for(int i = 0; i < authorList.size(); ++i) {
-                    if(!authorInfos.contains(authorList.at(i))) {
-                        qDebug() << "\n--------------------------COULD NOT FIND AUTHOR INFORMATION--------------------------\n";
-                    }
-                    authorsEmailsTemp.append(QString("%1 <%2>").arg(authorInfos[authorList.at(i)].first).arg(authorInfos[authorList.at(i)].second));
                 }
 
-                authorsEmailsTemp.removeDuplicates();
-                replaceString = authorsEmailsTemp.join(QString(";\r\n%1           ").arg(keywordComment));
+                // Check if Matti as author exisits
+                if(all.contains("Hamalainen") &&
+                   (pathFile.contains("/libraries/fiff")
+                   || pathFile.contains("/libraries/mne")
+                   || pathFile.contains("/libraries/communication")
+                   || pathFile.contains("/libraries/fwd")
+                   || pathFile.contains("/libraries/inverse")
+                   || pathFile.contains("/libraries/fs")
+                   || pathFile.contains("/applications/mne_rt_server"))) {
+                    authorList << "Matti Hamalainen";
+                }
 
-                replaceString.prepend(QString("%1 @author   ").arg(keywordComment));
-                replaceString.append("\r\n");
+                // Check if Christoph as author exisits
+                if(all.contains("Dinh")) {
+                    authorList << "Christoph Dinh";
+                }
 
-                QString alltemp = all;
-                all.remove(indexAuthor, indexVersion-indexAuthor);
-                all.insert(indexAuthor, replaceString);
+                // Check if Christoph as author exisits
+                if(all.contains("Esch")) {
+                    authorList << "Lorenz Esch";
+                }
+                // Check if Christoph as author exisits
+                if(all.contains("Debor")) {
+                    authorList << "Lars Debor";
+                }
+                // Check if Christoph as author exisits
+                if(all.contains("Heinke")) {
+                    authorList << "Simon Heinke";
+                }
+                if(all.contains("Mead")) {
+                    authorList << "Wayne Mead";
+                }
+                if(all.contains("Mosher")) {
+                    authorList << "John Mosher";
+                }
+
+                QString keywordComment("*");
+                if(pathFile.contains(".pro")) {
+                    keywordComment = "#";
+                }
+
+                // Fix authors
+                int indexAuthor = all.indexOf(QString("%1 @author").arg(keywordComment));
+                int indexVersion = all.indexOf(QString("%1 @version").arg(keywordComment));
+                if(indexAuthor != -1) {
+                    QString placeholder(QString("%1           ").arg(keywordComment));
+                    QString replaceString;
+                    QStringList authorsEmailsTemp;
+
+                    for(int i = 0; i < authorList.size(); ++i) {
+                        if(!authorInfos.contains(authorList.at(i))) {
+                            qDebug() << "\n--------------------------COULD NOT FIND AUTHOR INFORMATION for"<<authorList.at(i)<<"--------------------------\n";
+                        }
+                        authorsEmailsTemp.append(QString("%1 <%2>").arg(authorInfos[authorList.at(i)].first).arg(authorInfos[authorList.at(i)].second));
+                    }
+
+                    authorsEmailsTemp.removeDuplicates();
+                    replaceString = authorsEmailsTemp.join(QString(";\r\n%1           ").arg(keywordComment));
+
+                    replaceString.prepend(QString("%1 @author   ").arg(keywordComment));
+                    replaceString.append("\r\n");
+
+                    QString alltemp = all;
+                    all.remove(indexAuthor, indexVersion-indexAuthor);
+                    all.insert(indexAuthor, replaceString);
+                } else {
+                    qDebug() << "Did not find author keyword in" << pathFile;
+                }
+
+                // Fix licencing
+                int indexCopyright = all.indexOf(QString("%1 Copyright (C)").arg(keywordComment));
+                int indexReserved = all.indexOf(QString(" All rights reserved."));
+                if(indexCopyright != -1) {
+                    QString replaceString;
+                    QStringList authorsTemp;
+                    for(int i = 0; i < authorList.size(); ++i) {
+                        if(!authorInfos.contains(authorList.at(i))) {
+                            qDebug() << "\n--------------------------COULD NOT FIND AUTHOR INFORMATION"<<authorList.at(i)<<"--------------------------\n";
+                        }
+                        authorsTemp << authorInfos[authorList.at(i)].first;
+                    }
+
+                    authorsTemp.removeDuplicates();
+                    replaceString = authorsTemp.join(", ");
+
+                    //Find out year
+                    int indexYear = all.indexOf(QString("%1 @date").arg(keywordComment));
+                    indexYear = all.indexOf(QString("\r\n"),indexYear);
+                    QString year = all.mid(indexYear - 4, 4);
+
+                    QString finalReplace = QString("%1 Copyright (C) %2, %3.").arg(keywordComment).arg(year).arg(replaceString);
+
+                    // Deal with linebreaks > up to two are possible
+                    if(finalReplace.size() + 21 > 111) {
+                        int indexBreak = finalReplace.lastIndexOf(QString(", "), 100);
+                        finalReplace.insert(indexBreak+2, QString("\r\n%1                     ").arg(keywordComment));
+                    }
+                    if(finalReplace.size() + 21 > 222) {
+                        int indexBreak = finalReplace.lastIndexOf(QString(", "), 200);
+                        finalReplace.insert(indexBreak+2, QString("\r\n%1                     ").arg(keywordComment));
+                    }
+
+                    all.replace(indexCopyright, indexReserved-indexCopyright, finalReplace);
+                } else {
+                    qDebug() << "Did not find copyright keyword in" << pathFile;
+                }
+
+                // Fix wrong usage of doxygen style
+                all.replace(QString("\r\n*"),QString("\r\n *"));
+
+                // Write fixed version to file
+                fileFix.seek(0); // go to the beginning of the file
+                fileFix.write(all.toLatin1()); // write the new text back to the file
+                fileFix.resize(fileFix.pos());
+
+                fileFix.close(); // close the file handle.
             } else {
-                qDebug() << "Did not find author keyword in" << pathFile;
+                qDebug() << "Could not open file" << pathFile;
             }
-
-            // Fix licencing
-            int indexCopyright = all.indexOf(QString("%1 Copyright (C)").arg(keywordComment));
-            int indexReserved = all.indexOf(QString(" All rights reserved."));
-            if(indexCopyright != -1) {
-                QString replaceString;
-                QStringList authorsTemp;
-                for(int i = 0; i < authorList.size(); ++i) {
-                    if(!authorInfos.contains(authorList.at(i))) {
-                        qDebug() << "\n--------------------------COULD NOT FIND AUTHOR INFORMATION--------------------------\n";
-                    }
-                    authorsTemp << authorInfos[authorList.at(i)].first;
-                }
-
-                authorsTemp.removeDuplicates();
-                replaceString = authorsTemp.join(", ");
-
-                //Find out year
-                int indexYear = all.indexOf(QString("%1 @date").arg(keywordComment));
-                indexYear = all.indexOf(QString("\r\n"),indexYear);
-                QString year = all.mid(indexYear - 4, 4);
-
-                QString finalReplace = QString("%1 Copyright (C) %2, %3.").arg(keywordComment).arg(year).arg(replaceString);
-
-                // Deal with linebreaks > up to two are possible
-                if(finalReplace.size() + 21 > 111) {
-                    int indexBreak = finalReplace.lastIndexOf(QString(", "), 100);
-                    finalReplace.insert(indexBreak+2, QString("\r\n%1                     ").arg(keywordComment));
-                }
-                if(finalReplace.size() + 21 > 222) {
-                    int indexBreak = finalReplace.lastIndexOf(QString(", "), 200);
-                    finalReplace.insert(indexBreak+2, QString("\r\n%1                     ").arg(keywordComment));
-                }
-
-                all.replace(indexCopyright, indexReserved-indexCopyright, finalReplace);
-            } else {
-                qDebug() << "Did not find copyright keyword in" << pathFile;
-            }
-
-            // Fix wrong usage of doxygen style
-            all.replace(QString("\r\n*"),QString("\r\n *"));
-
-            // Write fixed version to file
-            fileFix.seek(0); // go to the beginning of the file
-            fileFix.write(all.toLatin1()); // write the new text back to the file
-            fileFix.resize(fileFix.pos());
-
-            fileFix.close(); // close the file handle.
-        } else {
-            qDebug() << "Could not open file" << pathFile;
         }
     }
 
